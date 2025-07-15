@@ -7,7 +7,7 @@
 ## Build and Extend your own Copilot using Microsoft Copilot Studio
 
 ### 🔹 Microsoft Copilot Studio 소개
-Microsoft Copilot Studio는 사용자가 자신만의 Copilot(대화형 AI)을 만들고, Power Platform과 통합하여 자동화 및 AI 기능을 확장할 수 있는 도구입니다.
+Microsoft Copilot Studio는 사용자가 자신만의 Agent(대화형 AI)을 만들고, Power Platform과 통합하여 자동화 및 AI 기능을 확장할 수 있는 도구입니다.
 
 ---
 
