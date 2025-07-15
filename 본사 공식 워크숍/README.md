@@ -1,3 +1,8 @@
+# *[본사의 최신 자료는 [여기](https://github.com/microsoft/CopilotStudioSamples/blob/main/CopilotStudioWorkshop/README.md)를 참고해 주세요]*
+
+</br>
+</br>
+
 # 💡 Microsoft Copilot Studio 실습 워크숍
 
 ## Build and Extend your own Copilot using Microsoft Copilot Studio
@@ -9,7 +14,7 @@ Microsoft Copilot Studio는 사용자가 자신만의 Copilot(대화형 AI)을 �
 
 ## 🧪 실습 목록 (Labs)
 
-1. **Lab 1**: Microsoft Copilot Studio에서 첫 Copilot 만들기  
+1. **Lab 1**: Microsoft Copilot Studio에서 새로운 Custom Agent 만들기  
 2. **Lab 2**: Authoring 101 (대화 흐름 설계 및 작성 기본)  
 3. **Lab 3**: 지식 소스 및 사용자 지정 지침 연결  
 4. **Lab 4**: Power Automate 클라우드 플로우 생성 및 호출  
@@ -33,18 +38,14 @@ Microsoft Copilot Studio는 사용자가 자신만의 Copilot(대화형 AI)을 �
 
 ## 👨‍💻 참가자 안내사항
 
-- 워크숍 발표자료(PPT):  
-  Microsoft Copilot Studio - Workshop.pptx
+- 워크숍 발표자료(PPT): Microsoft Copilot Studio - Workshop.pptx
 
-- 실습 파일 다운로드 및 압축 해제:  
-  Lab files.zip  
+- 실습 파일 다운로드 및 압축 해제: Lab files.zip  
   → 각 실습 문서(DOCX 또는 PDF)를 순서대로 따라 진행
 
 - 브라우저에서 새 작업 프로필을 만들거나, 게스트/시크릿 모드로 접속 권장
 
-- Copilot Studio 접속 링크:  
-  aka.ms/CopilotStudioStart  
-  (제공된 계정으로 로그인)
+- Copilot Studio 접속 링크: aka.ms/CopilotStudioStart (= 제공된 계정으로 로그인)
 
 ---
 
