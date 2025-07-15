@@ -1,8 +1,6 @@
 **[아직 구성 중 입니다]**
 
-Copilot Studio 한국형 핸즈온.
-
----
+# Copilot Studio 한국형 핸즈온.
 
 ## 목적
 - AI Orchestration(생성형 AI) 기반의 서로 다른 컨셉의 에이전트를 직접 만들어봅니다.
