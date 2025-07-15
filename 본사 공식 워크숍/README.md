@@ -1,6 +1,5 @@
-# *[본사의 최신 자료는 [여기](https://github.com/microsoft/CopilotStudioSamples/blob/main/CopilotStudioWorkshop/README.md)를 참고해 주세요]*
+## *[본사의 최신 자료는 [여기](https://github.com/microsoft/CopilotStudioSamples/blob/main/CopilotStudioWorkshop/README.md)를 참고해 주세요]*
 
-</br>
 </br>
 
 # 💡 Microsoft Copilot Studio 실습 워크숍
