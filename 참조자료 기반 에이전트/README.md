@@ -1,5 +1,7 @@
 [마이크로소프트 최치원 Solution Engineer]
 
+---
+
 # 온보딩 에이전트 핸즈온 세션: Copilot Studio 기반 에이전트 구축
 
 이 핸즈온 세션에서는 Copilot Studio를 활용하여 사내 임직원 질의응답을 처리하는 온보딩 에이전트를 단계별로 구축합니다. SharePoint, Dataverse, 파일 업로드, Power Automate, 프롬프트, 커넥터 등을 활용하여 실제 업무 시나리오에 맞는 지능형 에이전트를 완성합니다.
