@@ -1,4 +1,6 @@
-## *본사의 최신 자료는 [여기](https://github.com/microsoft/CopilotStudioSamples/blob/main/CopilotStudioWorkshop/README.md)를 참고해 주세요*
+# 들어가기 전에
+1. 본사의 최신 자료는 [여기](https://github.com/microsoft/CopilotStudioSamples/blob/main/CopilotStudioWorkshop/README.md)를 참고할 수 있습니다.
+2. 위 컨텐츠를 국내 파트너사(FDX Networks)가 한글화 한 자료는 [여기](https://github.com/FDX-edu/CopilotSeminar/blob/main/2024_Workshop/README.md)를 참고할 수 있습니다.
 
 </br>
 
