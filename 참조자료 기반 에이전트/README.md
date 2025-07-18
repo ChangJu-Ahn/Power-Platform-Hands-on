@@ -1,7 +1,10 @@
-## 들어가기 전
-이 콘텐츠는 **마이크로소프트 Copilot Solution Enginner 최치원님**이 작성해 주셨습니다.   
-최치원님의 각종 자료 및 링크드인은 [여기](https://www.linkedin.com/in/chiwon-choi-b3b880117/)를 참고해 주세요! :)
+# 들어가기 전
 
+1) 이 콘텐츠는 **마이크로소프트 Copilot Solution Enginner 최치원님**이 작성해 주셨습니다.   
+최치원님의 각종 자료 및 링크드인은 [여기](https://www.linkedin.com/in/chiwon-choi-b3b880117/)를 참고해 주세요.
+
+2) 실습을 위한 파일, 그리고 최종 결과물인 에이전트의 솔루션은 직접 다운받아 참고할 수 있습니다.   
+   파일 경로는 [여기](https://github.com/ChangJu-Ahn/Copilot-Studio-Hands-on/blob/main/%EC%B0%B8%EC%A1%B0%EC%9E%90%EB%A3%8C%20%EA%B8%B0%EB%B0%98%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8/Files/README.md)를 참고해 주세요.
 </br>
 
 ---
