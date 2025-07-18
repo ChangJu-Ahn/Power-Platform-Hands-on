@@ -1,4 +1,8 @@
-[마이크로소프트 최치원 Solution Engineer]
+## 들어가기 전
+이 콘텐츠는 **마이크로소프트 Copilot Solution Enginner 최치원님**이 작성해 주셨습니다.   
+최치원님의 각종 자료 및 링크드인은 [여기](https://www.linkedin.com/in/chiwon-choi-b3b880117/)를 참고해 주세요! :)
+
+</br>
 
 ---
 
