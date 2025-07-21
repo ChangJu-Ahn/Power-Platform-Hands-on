@@ -34,7 +34,10 @@ inputs:
     description: 공연 또는 이벤트를 상세하게 조회하기 위해 필요한 이벤트 ID입니다.
 
 modelDisplayName: Get Event in detail
-modelDescription: 이벤트 또는 공연 정보를 상세하게 조회합니다. bullet point로 결과값을 표현합니다.
+modelDescription: |-
+이벤트 또는 공연 정보를 상세하게 조회합니다. 다음과 같은 규칙을 따릅니다.
+- 결과를 bullet point 형태로 표현합니다.
+- 조회된 정보는 모두 빠짐없이 표현합니다.
 outputs:
   - propertyName: _embedded.venues
 
@@ -150,8 +153,10 @@ inputs:
 
 modelDisplayName: Get Events
 modelDescription: |-
-  Ticketmaster에서 각종 공연 및 이벤트 정보를 조회합니다. 조회된 정보는 bullet point 형태로 표현합니다.
-  그리고 각 bullet point 별로 event id는 필수로 표현되어야 합니다.
+  Ticketmaster에서 각종 공연 및 이벤트 정보를 조회합니다. 그리고 표현은 다음과 같은 기준을 따릅니다.
+- 조회된 정보를 각 공연 또는 이벤트 별로 Bullet Point 형태로 표현합니다.
+- 각 Event 별로 Event id는 필수로 표현되어야 합니다.
+- 조회된 Event 또는 공연은 빠짐없이 표현합니다.
 outputs:
   - propertyName: _embedded.events
 
