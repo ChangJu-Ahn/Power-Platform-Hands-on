@@ -1512,7 +1512,7 @@ paths:
                           description: aliases
                     description: attractions
                 description: _embedded
-      summary: GetEventDetail
+      summary: Get Event in detail
       description: GetEventDetail
       operationId: GetEventDetail
       x-ms-visibility: important
