@@ -138,10 +138,8 @@ inputs:
     propertyName: StartDateTime
     name: StartDateTime
     description: |-
-      - 공연 또는 이벤트가 열리는 시작 날짜입니다. 입력된 날짜가 없다면 공백으로 유지합니다.
-      - 입력된 날짜가 있다면, 반드시 날짜의 공통 형식인 ISO8601을 따라서 포멧을 변경합니다.
-      예 1) ISO8601 형식에서 날짜는 yyyy-MM-ddthh:mm:ssz 으로 표현합니다.
-      예 2) 고객이 날짜 형식을 '25-6-15'를 입력했다면? '2025-06-15T00:00:00Z' 으로 표현됩니다.
+      공연 또는 이벤트가 열리는 시작 날짜입니다.  다음 규칙을 참고합니다.
+- 입력된 날짜는 ISO8601을 따라서 날짜 타입을 변경합니다. (i.e. yyyy-MM-ddthh:mm:ssz)
 
   - kind: AutomaticTaskInput
     propertyName: city
