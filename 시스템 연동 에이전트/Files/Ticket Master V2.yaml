@@ -502,7 +502,6 @@ paths:
           required: false
           type: integer
           default: 1
-          x-ms-visibility: important
   /discovery/v2/events/{EventId}:
     get:
       responses:
@@ -925,7 +924,6 @@ paths:
           required: false
           type: integer
           default: 1
-          x-ms-visibility: important
 definitions: {}
 parameters: {}
 responses: {}
