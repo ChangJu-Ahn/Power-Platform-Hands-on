@@ -1535,3 +1535,114 @@ security:
 tags: []
 
 ```
+
+### Tool of Get Event in detail
+```
+kind: TaskDialog
+modelDisplayName: Get Event in detail
+modelDescription: GetEventDetail
+outputs:
+  - propertyName: _embedded.attractions
+
+  - propertyName: _embedded.venues
+
+  - propertyName: _links.attractions
+
+  - propertyName: _links.self.href
+
+  - propertyName: _links.venues
+
+  - propertyName: accessibility.id
+
+  - propertyName: accessibility.info
+
+  - propertyName: accessibility.ticketLimit
+
+  - propertyName: ageRestrictions.id
+
+  - propertyName: ageRestrictions.legalAgeEnforced
+
+  - propertyName: classifications
+
+  - propertyName: dates.spanMultipleDays
+
+  - propertyName: dates.start.dateTBA
+
+  - propertyName: dates.start.dateTBD
+
+  - propertyName: dates.start.dateTime
+
+  - propertyName: dates.start.localDate
+
+  - propertyName: dates.start.localTime
+
+  - propertyName: dates.start.noSpecificTime
+
+  - propertyName: dates.start.timeTBA
+
+  - propertyName: dates.status.code
+
+  - propertyName: dates.timezone
+
+  - propertyName: id
+
+  - propertyName: images
+
+  - propertyName: info
+
+  - propertyName: locale
+
+  - propertyName: name
+
+  - propertyName: pleaseNote
+
+  - propertyName: promoter.description
+
+  - propertyName: promoter.id
+
+  - propertyName: promoter.name
+
+  - propertyName: promoters
+
+  - propertyName: sales.presales
+
+  - propertyName: sales.public.endDateTime
+
+  - propertyName: sales.public.startDateTime
+
+  - propertyName: sales.public.startTBA
+
+  - propertyName: sales.public.startTBD
+
+  - propertyName: seatmap.id
+
+  - propertyName: seatmap.staticUrl
+
+  - propertyName: test
+
+  - propertyName: ticketing.allInclusivePricing.enabled
+
+  - propertyName: ticketing.id
+
+  - propertyName: ticketing.safeTix.enabled
+
+  - propertyName: ticketLimit.id
+
+  - propertyName: ticketLimit.info
+
+  - propertyName: type
+
+  - propertyName: url
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: cr202_ticketMaster.shared_ticketmaster-5f9f1743201ee220d8-5f8162bc61f529b2c6.dbaebfa663a64e3096b4eb424248ef82
+  connectionProperties:
+    mode: Invoker
+
+  operationId: GetEventDetail
+
+outputMode: All
+```
+
+
