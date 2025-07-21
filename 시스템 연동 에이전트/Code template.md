@@ -130,16 +130,18 @@ outputMode: All
 kind: TaskDialog
 inputs:
   - kind: AutomaticTaskInput
-    propertyName: keyword
-    name: keyword
-    description: 공연 및 이벤트, 가수 이름 등의 키워드입니다.
-
-  - kind: AutomaticTaskInput
     propertyName: StartDateTime
     name: StartDateTime
     description: |-
       공연 또는 이벤트가 열리는 시작 날짜입니다.  다음 규칙을 참고합니다.
-- 입력된 날짜는 ISO8601을 따라서 날짜 타입을 변경합니다. (i.e. yyyy-MM-ddthh:mm:ssz)
+      - 입력된 날짜는 ISO8601을 따라서 날짜 타입을 변경합니다. (i.e. yyyy-MM-ddthh:mm:ssz)
+    shouldPromptUser: false
+
+  - kind: AutomaticTaskInput
+    propertyName: keyword
+    name: keyword
+    description: 공연 및 이벤트, 가수 이름 등의 키워드입니다.
+    shouldPromptUser: false
 
   - kind: AutomaticTaskInput
     propertyName: city
@@ -147,6 +149,7 @@ inputs:
     description: |-
       이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 모든 도시의 이름은 영어로 변경되어야 합니다.
       (예: 서울 -> Seoul, 뉴욕 -> New York)
+    shouldPromptUser: false
 
 modelDisplayName: Get Events
 modelDescription: |-
