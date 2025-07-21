@@ -1,5 +1,8 @@
 [마이크로소프트 안창주 Solution Engineer]
 
+**Origin 1. 👉 https://www.youtube.com/watch?v=ZcUUv39dcig**   
+**Origin 2. 👉 https://www.linkedin.com/in/damobird365/**
+
 ---
 
 # 고객 핸즈온 세션: Power Platform Ticketmaster 에이전트 구축
