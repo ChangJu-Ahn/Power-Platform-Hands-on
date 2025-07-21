@@ -499,7 +499,7 @@ paths:
           type: string
         - name: size
           in: query
-          required: true
+          required: false
           type: integer
           default: 1
           x-ms-visibility: important
@@ -922,9 +922,10 @@ paths:
           type: string
         - name: size
           in: query
-          required: true
+          required: false
           type: integer
           default: 1
+          x-ms-visibility: important
 definitions: {}
 parameters: {}
 responses: {}
