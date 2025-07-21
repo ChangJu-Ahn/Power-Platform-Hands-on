@@ -24,6 +24,105 @@ IFLd7Lvz7ZNTI2qnCnJz8yiYOABJ4sgg
 
 </br>
 
+### Get Event in detail
+
+```
+kind: TaskDialog
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: EventId
+    description: 공연 또는 이벤트를 상세하게 조회하기 위해 필요한 이벤트 ID입니다.
+
+modelDisplayName: Get Event in detail
+modelDescription: "이벤트 또는 공연 정보를 상세하게 조회합니다. "
+outputs:
+  - propertyName: _embedded.venues
+
+  - propertyName: _links.self.href
+
+  - propertyName: _links.venues
+
+  - propertyName: ageRestrictions.id
+
+  - propertyName: ageRestrictions.legalAgeEnforced
+
+  - propertyName: classifications
+
+  - propertyName: dates.spanMultipleDays
+
+  - propertyName: dates.start.dateTBA
+
+  - propertyName: dates.start.dateTBD
+
+  - propertyName: dates.start.dateTime
+
+  - propertyName: dates.start.localDate
+
+  - propertyName: dates.start.localTime
+
+  - propertyName: dates.start.noSpecificTime
+
+  - propertyName: dates.start.timeTBA
+
+  - propertyName: dates.status.code
+
+  - propertyName: dates.timezone
+
+  - propertyName: id
+
+  - propertyName: images
+
+  - propertyName: info
+
+  - propertyName: locale
+
+  - propertyName: name
+
+  - propertyName: pleaseNote
+
+  - propertyName: promoter.description
+
+  - propertyName: promoter.id
+
+  - propertyName: promoter.name
+
+  - propertyName: promoters
+
+  - propertyName: sales.public.endDateTime
+
+  - propertyName: sales.public.startDateTime
+
+  - propertyName: sales.public.startTBA
+
+  - propertyName: sales.public.startTBD
+
+  - propertyName: test
+
+  - propertyName: ticketing.allInclusivePricing.enabled
+
+  - propertyName: ticketing.id
+
+  - propertyName: ticketing.safeTix.enabled
+
+  - propertyName: ticketLimit.id
+
+  - propertyName: ticketLimit.info
+
+  - propertyName: type
+
+  - propertyName: url
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: cr202_ticketMaster.shared_ticket-20master-20v3-5f9f1743201ee220d8-5f8162bc61f529b2c6.cbcd81b8b6c14d5ba0be84972c5e7fab
+  connectionProperties:
+    mode: Maker
+
+  operationId: GetEventDetail
+
+outputMode: All
+```
+### Get Events
 ```
 kind: TaskDialog
 inputs:
@@ -31,17 +130,8 @@ inputs:
     propertyName: city
     name: city
     description: |-
-      - 이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 모든 도시의 이름은 영어로 변경되어야 합니다.
-      예: 서울 -> Seoul, 뉴욕 -> New York
-
-      - 그렇지 않으면 공백으로 유지합니다
-    shouldPromptUser: false
-
-  - kind: AutomaticTaskInput
-    propertyName: keyword
-    name: keyword
-    description: "공연 및 이벤트, 가수 이름 등의 키워드입니다. "
-    shouldPromptUser: true
+      이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 모든 도시의 이름은 영어로 변경되어야 합니다.
+      (예: 서울 -> Seoul, 뉴욕 -> New York)
 
   - kind: AutomaticTaskInput
     propertyName: StartDateTime
@@ -52,8 +142,14 @@ inputs:
       예 1) ISO8601 형식에서 날짜는 yyyy-MM-ddthh:mm:ssz 으로 표현합니다.
       예 2) 고객이 날짜 형식을 '25-6-15'를 입력했다면? '2025-06-15T00:00:00Z' 으로 표현됩니다.
 
+  - kind: AutomaticTaskInput
+    propertyName: keyword
+    name: keyword
+    description: 공연 및 이벤트, 가수 이름 등의 키워드입니다.
+    shouldPromptUser: true
+
 modelDisplayName: Get Events
-modelDescription: "Ticketmaster에서 각종 공연 및 이벤트 정보를 조회합니다. 그리고 유효한 이벤트 & 공연을 bullet mark 형태로 표현합니다. "
+modelDescription: Ticketmaster에서 각종 공연 및 이벤트 정보를 조회합니다. 그리고 유효한 이벤트 & 공연을 bullet mark 형태로 요약합니다.
 outputs:
   - propertyName: _embedded.events
 
@@ -75,9 +171,9 @@ outputs:
 
 action:
   kind: InvokeConnectorTaskAction
-  connectionReference: cr202_ticketMaster.shared_ticketmaster-5f9f1743201ee220d8-5f8162bc61f529b2c6.33a3f201345d47928c643e654733f1d7
+  connectionReference: cr202_ticketMaster.shared_ticket-20master-20v3-5f9f1743201ee220d8-5f8162bc61f529b2c6.cbcd81b8b6c14d5ba0be84972c5e7fab
   connectionProperties:
-    mode: Invoker
+    mode: Maker
 
   operationId: GetEvents
 
