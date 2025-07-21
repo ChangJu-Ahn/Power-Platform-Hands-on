@@ -35,9 +35,9 @@ inputs:
 
 modelDisplayName: Get Event in detail
 modelDescription: |-
-이벤트 또는 공연 정보를 상세하게 조회합니다. 다음과 같은 규칙을 따릅니다.
-- 결과를 bullet point 형태로 표현합니다.
-- 조회된 정보는 모두 빠짐없이 표현합니다.
+  이벤트 또는 공연 정보를 상세하게 조회합니다. 다음과 같은 규칙을 따릅니다.
+  - 결과를 bullet point 형태로 표현합니다.
+  - 조회된 정보는 모두 빠짐없이 표현합니다.
 outputs:
   - propertyName: _embedded.venues
 
@@ -117,9 +117,9 @@ outputs:
 
 action:
   kind: InvokeConnectorTaskAction
-  connectionReference: cr202_ticketMaster.shared_ticket-20master-20v3-5f9f1743201ee220d8-5f8162bc61f529b2c6.cbcd81b8b6c14d5ba0be84972c5e7fab
+  connectionReference: cr202_ticketMaster.shared_ticket-20master-20v4-5f9f1743201ee220d8-5f8162bc61f529b2c6.70703d8a24314c54bff94a6c4ff4deba
   connectionProperties:
-    mode: Maker
+    mode: Invoker
 
   operationId: GetEventDetail
 
@@ -130,11 +130,9 @@ outputMode: All
 kind: TaskDialog
 inputs:
   - kind: AutomaticTaskInput
-    propertyName: city
-    name: city
-    description: |-
-      이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 모든 도시의 이름은 영어로 변경되어야 합니다.
-      (예: 서울 -> Seoul, 뉴욕 -> New York)
+    propertyName: keyword
+    name: keyword
+    description: 공연 및 이벤트, 가수 이름 등의 키워드입니다.
 
   - kind: AutomaticTaskInput
     propertyName: StartDateTime
@@ -146,17 +144,18 @@ inputs:
       예 2) 고객이 날짜 형식을 '25-6-15'를 입력했다면? '2025-06-15T00:00:00Z' 으로 표현됩니다.
 
   - kind: AutomaticTaskInput
-    propertyName: keyword
-    name: keyword
-    description: 공연 및 이벤트, 가수 이름 등의 키워드입니다.
-    shouldPromptUser: true
+    propertyName: city
+    name: city
+    description: |-
+      이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 모든 도시의 이름은 영어로 변경되어야 합니다.
+      (예: 서울 -> Seoul, 뉴욕 -> New York)
 
 modelDisplayName: Get Events
 modelDescription: |-
   Ticketmaster에서 각종 공연 및 이벤트 정보를 조회합니다. 그리고 표현은 다음과 같은 기준을 따릅니다.
-- 조회된 정보를 각 공연 또는 이벤트 별로 Bullet Point 형태로 표현합니다.
-- 각 Event 별로 Event id는 필수로 표현되어야 합니다.
-- 조회된 Event 또는 공연은 빠짐없이 표현합니다.
+  - 조회된 정보를 각 공연 또는 이벤트 별로 Bullet Point 형태로 표현합니다.
+  - 각 Event 별로 Event id는 필수로 표현되어야 합니다.
+  - 조회된 Event 또는 공연은 빠짐없이 표현합니다.
 outputs:
   - propertyName: _embedded.events
 
@@ -178,9 +177,9 @@ outputs:
 
 action:
   kind: InvokeConnectorTaskAction
-  connectionReference: cr202_ticketMaster.shared_ticket-20master-20v3-5f9f1743201ee220d8-5f8162bc61f529b2c6.cbcd81b8b6c14d5ba0be84972c5e7fab
+  connectionReference: cr202_ticketMaster.shared_ticket-20master-20v4-5f9f1743201ee220d8-5f8162bc61f529b2c6.70703d8a24314c54bff94a6c4ff4deba
   connectionProperties:
-    mode: Maker
+    mode: Invoker
 
   operationId: GetEvents
 
