@@ -36,7 +36,7 @@ inputs:
 modelDisplayName: Get Event in detail
 modelDescription: |-
   이벤트 또는 공연 정보를 상세하게 조회합니다. 다음과 같은 규칙을 따릅니다.
-  - 결과를 bullet point 형태로 표현합니다.
+  - 결과를 bullet point 형태로 요약하여 표현합니다.
   - 조회된 정보는 모두 빠짐없이 표현합니다.
 outputs:
   - propertyName: _embedded.venues
@@ -133,28 +133,30 @@ inputs:
     propertyName: StartDateTime
     name: StartDateTime
     description: |-
-      공연 또는 이벤트가 열리는 시작 날짜입니다.  다음 규칙을 참고합니다.
-      - 입력된 날짜는 ISO8601을 따라서 날짜 타입을 변경합니다. (i.e. yyyy-MM-ddthh:mm:ssz)
+      공연 또는 이벤트가 열리는 시작 날짜를 인식합니다. 입력 값이 없다면 공백으로 유지합니다.
+      만약 날짜를 인식했다면, 날짜 ISO8601의 날짜 형식을 참고합니다.
+      - 예시: yyyy-MM-ddthh:mm:ssz
     shouldPromptUser: false
 
   - kind: AutomaticTaskInput
     propertyName: keyword
     name: keyword
-    description: 공연 및 이벤트, 가수 이름 등의 키워드입니다.
+    description: 공연 및 이벤트, 가수 이름 등의 검색 키워드를 인식합니다. 입력 값이 없다면 공백으로 유지합니다.
     shouldPromptUser: false
 
   - kind: AutomaticTaskInput
     propertyName: city
     name: city
     description: |-
-      이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 모든 도시의 이름은 영어로 변경되어야 합니다.
+      이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 
+      모든 도시의 이름은 영어로 변경되어야 하고, 입력된 값이 없다면 공백으로 유지합니다.
       (예: 서울 -> Seoul, 뉴욕 -> New York)
     shouldPromptUser: false
 
 modelDisplayName: Get Events
 modelDescription: |-
   Ticketmaster에서 각종 공연 및 이벤트 정보를 조회합니다. 그리고 표현은 다음과 같은 기준을 따릅니다.
-  - 조회된 정보를 각 공연 또는 이벤트 별로 Bullet Point 형태로 표현합니다.
+  - 조회된 정보를 각 공연 또는 이벤트 별로 Bullet Point 형태로 요약하여 표현합니다.
   - 각 Event 별로 Event id는 필수로 표현되어야 합니다.
   - 조회된 Event 또는 공연은 빠짐없이 표현합니다.
 outputs:
