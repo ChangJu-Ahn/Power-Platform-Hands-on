@@ -36,6 +36,7 @@ inputs:
 modelDisplayName: Get Event in detail
 modelDescription: |-
   이벤트 또는 공연 정보를 상세하게 조회합니다. 다음과 같은 규칙을 따릅니다.
+
   - 결과를 bullet point 형태로 요약하여 표현합니다.
   - 조회된 정보는 모두 빠짐없이 표현합니다.
 outputs:
@@ -119,13 +120,15 @@ action:
   kind: InvokeConnectorTaskAction
   connectionReference: cr202_ticketMaster.shared_ticket-20master-20v4-5f9f1743201ee220d8-5f8162bc61f529b2c6.70703d8a24314c54bff94a6c4ff4deba
   connectionProperties:
-    mode: Invoker
+    mode: Maker
 
   operationId: GetEventDetail
 
 outputMode: All
 ```
+
 ### Get Events
+
 ```
 kind: TaskDialog
 inputs:
@@ -150,12 +153,14 @@ inputs:
     description: |-
       이벤트 또는 공연이 열리는 도시 이름을 인식합니다. 
       모든 도시의 이름은 영어로 변경되어야 하고, 입력된 값이 없다면 공백으로 유지합니다.
+
       (예: 서울 -> Seoul, 뉴욕 -> New York)
     shouldPromptUser: false
 
 modelDisplayName: Get Events
 modelDescription: |-
   Ticketmaster에서 각종 공연 및 이벤트 정보를 조회합니다. 그리고 표현은 다음과 같은 기준을 따릅니다.
+
   - 조회된 정보를 각 공연 또는 이벤트 별로 Bullet Point 형태로 요약하여 표현합니다.
   - 각 Event 별로 Event id는 필수로 표현되어야 합니다.
   - 조회된 Event 또는 공연은 빠짐없이 표현합니다.
@@ -182,7 +187,7 @@ action:
   kind: InvokeConnectorTaskAction
   connectionReference: cr202_ticketMaster.shared_ticket-20master-20v4-5f9f1743201ee220d8-5f8162bc61f529b2c6.70703d8a24314c54bff94a6c4ff4deba
   connectionProperties:
-    mode: Invoker
+    mode: Maker
 
   operationId: GetEvents
 
