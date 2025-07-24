@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: Ticket Master V2
+  title: Ticket Master V5
   description: All of event and performance are retrieved from Ticket Master site.
   version: '1.0'
 host: app.ticketmaster.com
@@ -463,10 +463,6 @@ paths:
               page:
                 type: object
                 properties:
-                  size:
-                    type: integer
-                    format: int32
-                    description: size
                   totalElements:
                     type: integer
                     format: int32
@@ -497,11 +493,6 @@ paths:
           in: query
           required: false
           type: string
-        - name: size
-          in: query
-          required: false
-          type: integer
-          default: 1
   /discovery/v2/events/{EventId}:
     get:
       responses:
@@ -919,11 +910,6 @@ paths:
           in: path
           required: true
           type: string
-        - name: size
-          in: query
-          required: false
-          type: integer
-          default: 1
 definitions: {}
 parameters: {}
 responses: {}
