@@ -10,15 +10,17 @@
 
 ### Copilot Studio
 1) 본사 공식 워크숍: 마이크로소프트 본사에서 나오는 공식 워크숍 자료입니다.     
-이 자료를 기반으로 국내 전문 파트너사가 로컬화하여 서비스하는 내용도 함께 포함되어 있습니다. 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20%EB%B3%B8%EC%82%AC%20%EA%B3%B5%EC%8B%9D%20%EC%9B%8C%ED%81%AC%EC%88%8D)를 참고하세요.
-2) TicketMaster Agent: 시스템 연동기반의 커스텀 에이전트입니다.    
+이 자료를 기반으로 국내 전문 파트너사가 로컬화하여 서비스하는 내용도 함께 포함되어 있습니다.
+> 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20%EB%B3%B8%EC%82%AC%20%EA%B3%B5%EC%8B%9D%20%EC%9B%8C%ED%81%AC%EC%88%8D)를 참고하세요.
+3) TicketMaster Agent: 시스템 연동기반의 커스텀 에이전트입니다.    
 우리나라의 예스24, 인터파크와 비슷한 사이트를 직접 연동하고, AI Orchestration이 동작하는 커스텀 에이전트를 만듭니다.    
-컨셉은 시스템 연동이고, 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20TicketMaster%20Agent)를 참고하세요.
-3) 임직원 Q&A  에이전트: 파일, 엑셀, 쉐어포인트 등을 이용한 임직원 Q&A 에이전트를 제작해 봅니다.
-자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/%EC%B0%B8%EC%A1%B0%EC%9E%90%EB%A3%8C%20%EA%B8%B0%EB%B0%98%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8)를 참고하세요.
-4) AI Daily New Agent
-5) 주간보고 Support Agent
+> 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20TicketMaster%20Agent)를 참고하세요.
+4) 임직원 Q&A  에이전트: 파일, 엑셀, 쉐어포인트 등을 이용한 임직원 Q&A 에이전트를 제작해 봅니다.
+> 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/%EC%B0%B8%EC%A1%B0%EC%9E%90%EB%A3%8C%20%EA%B8%B0%EB%B0%98%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8)를 참고하세요.
+5) AI Daily New Agent
+6) 주간보고 Support Agent
 
 ### Power Apps
 1) 3분 카레보다 빠른 - AI 현장 안전검사 앱: 전자레인지에 3분 카레를 넣고 돌리고 난 뒤에 뭘 할까요?   
-그동안에 생성형 AI가 접목된 **AI 현장 안전검사 앱**을 만들어 볼까요? 자세한 내용을 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/Power%20Apps%20-%203%EB%B6%84%EC%B9%B4%EB%A0%88%EB%B3%B4%EB%8B%A4%20%EB%B9%A0%EB%A5%B8%20AI%20%ED%98%84%EC%9E%A5%20%EC%95%88%EC%A0%84%EA%B2%80%EC%82%AC%20%EC%95%B1/README.md)를 참고하세요.
+그동안에 생성형 AI가 접목된 **AI 현장 안전검사 앱**을 만들어 볼까요?
+> 자세한 내용을 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/Power%20Apps%20-%203%EB%B6%84%EC%B9%B4%EB%A0%88%EB%B3%B4%EB%8B%A4%20%EB%B9%A0%EB%A5%B8%20AI%20%ED%98%84%EC%9E%A5%20%EC%95%88%EC%A0%84%EA%B2%80%EC%82%AC%20%EC%95%B1/README.md)를 참고하세요.
