@@ -16,7 +16,7 @@
 우리나라의 예스24, 인터파크와 비슷한 사이트를 직접 연동하고, AI Orchestration이 동작하는 커스텀 에이전트를 만듭니다.    
     > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20TicketMaster%20Agent)를 참고하세요.
 3) 임직원 Q&A  에이전트: 파일, 엑셀, 쉐어포인트 등을 이용한 임직원 Q&A 에이전트를 제작해 봅니다.
-    > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/%EC%B0%B8%EC%A1%B0%EC%9E%90%EB%A3%8C%20%EA%B8%B0%EB%B0%98%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8)를 참고하세요.
+    > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20%EC%9E%84%EC%A7%81%EC%9B%90%20Q%26A%20Agent)를 참고하세요.
 4) 한국 여행 가이드 에이전트: 외부 웹사이트, 날씨 API, pdf 문서를 기반으로 만드는 AI 에이전트입니다.
     > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/Copilot%20Studio%20AI%20Orchestration/README.md)를 참고하세요.
 5) 추론 모델을 이용한 라이선스 가이드 에이전트(자율형 에이전트): 웹 사이트, 워드, pdf 파일 뿐 아니라 추론 모델 & 타 LLM까지 총 망라한 커스텀 에이전트입니다.
