@@ -25,7 +25,7 @@
     > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent/blob/main/CopilotStudio%2BSAP/README.md)를 참고하세요.
 7) 기타: 여기 외 다른 리포에도 많아요! :)
     > https://github.com/ChangJu-Ahn/Microsoft-AI-Agent 이쪽으로 오시면 더 많이 볼 수 있어요. 
-9) Comming Soon Hands-On
+9) Coming Soon Hands-On
     > 아래 데모는 Cloud Soltuion Architect 정현진님이 만든 환상적인 데모영상입니다.
     > 현진님의 링크드인은 [여기](https://www.linkedin.com/in/jinjung1007)를 참고하세요.
     - 직장인의 가장 큰 고민은 점심메뉴죠? 오늘 점심 요기땅 Agent - 데모영상은 [여기](https://youtu.be/Oi1ExK6LFsw)요!
