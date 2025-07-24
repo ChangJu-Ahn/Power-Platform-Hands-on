@@ -10,8 +10,7 @@
 
 ### Copilot Studio
 1) 본사 공식 워크숍: 마이크로소프트 본사에서 나오는 공식 워크숍 자료입니다.     
-이 자료를 기반으로 국내 전문 파트너사가 로컬화하여 서비스하는 내용도 함께 포함되어 있습니다. 
-자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20%EB%B3%B8%EC%82%AC%20%EA%B3%B5%EC%8B%9D%20%EC%9B%8C%ED%81%AC%EC%88%8D)를 참고하세요.
+이 자료를 기반으로 국내 전문 파트너사가 로컬화하여 서비스하는 내용도 함께 포함되어 있습니다. 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20%EB%B3%B8%EC%82%AC%20%EA%B3%B5%EC%8B%9D%20%EC%9B%8C%ED%81%AC%EC%88%8D)를 참고하세요.
 2) TicketMaster Agent: 시스템 연동기반의 커스텀 에이전트입니다.    
 우리나라의 예스24, 인터파크와 비슷한 사이트를 직접 연동하고, AI Orchestration이 동작하는 커스텀 에이전트를 만듭니다.    
 컨셉은 시스템 연동이고, 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20TicketMaster%20Agent)를 참고하세요.
