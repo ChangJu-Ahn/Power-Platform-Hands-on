@@ -1,4 +1,5 @@
-[마이크로소프트 안창주 Solution Engineer]
+[마이크로소프트 안창주 Solution Engineer - LinkedIn [here](https://www.linkedin.com/in/ahncj89/)]   
+[마이크로소프트 이영서 Solution Engineer - LinkedIn [here](https://www.linkedin.com/in/youngseo-lee-832b27262/)]
 
 **Origin Video 👉 https://www.youtube.com/watch?v=ZcUUv39dcig**   
 **Owner, my colleague 👉 https://www.linkedin.com/in/damobird365/**
