@@ -33,6 +33,6 @@
     - 직원 관심사에 맞는 뉴스를 보내준다고? AI News Agent Agent - 데모영상은 [여기](https://youtu.be/T5AQsowb4nc)요!
 
 ### Power Apps
-1) 3분 카레보다 빠른 - AI 현장 안전검사 앱: 전자레인지에 3분 카레를 넣고 돌리고 난 뒤에 뭘 할까요?   
-그동안에 생성형 AI가 접목된 **AI 현장 안전검사 앱**을 만들어 볼까요?
-> 자세한 내용을 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/Power%20Apps%20-%203%EB%B6%84%EC%B9%B4%EB%A0%88%EB%B3%B4%EB%8B%A4%20%EB%B9%A0%EB%A5%B8%20AI%20%ED%98%84%EC%9E%A5%20%EC%95%88%EC%A0%84%EA%B2%80%EC%82%AC%20%EC%95%B1/README.md)를 참고하세요.
+1) 3분 카레보다 빠른 - AI 현장 안전검사 앱: 전자레인지에 3분 카레를 넣고 돌리고 난 뒤에 뭘 할까요?    
+   그동안에 생성형 AI가 접목된 **AI 현장 안전검사 앱**을 만들어 볼까요?   
+   > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/Power%20Apps%20-%203%EB%B6%84%EC%B9%B4%EB%A0%88%EB%B3%B4%EB%8B%A4%20%EB%B9%A0%EB%A5%B8%20AI%20%ED%98%84%EC%9E%A5%20%EC%95%88%EC%A0%84%EA%B2%80%EC%82%AC%20%EC%95%B1/README.md)를 참고하세요.
