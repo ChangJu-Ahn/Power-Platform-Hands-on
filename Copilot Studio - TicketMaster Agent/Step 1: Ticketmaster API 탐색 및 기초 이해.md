@@ -1,6 +1,6 @@
 
 
-# Step 1 – Ticketmaster Discovery v2 API 이해 & 실습 가이드
+# Step 1 - Ticketmaster Discovery v2 API 이해 & 실습 가이드
 
 > 이 README는 **고객이 바로 따라할 수 있도록** 구성되었습니다.  
 > 모든 예시는 복사·붙여넣기만 해도 동작하도록 작성했으며, `{apikey}` 부분만 여러분의 실제 키로 교체하세요.
