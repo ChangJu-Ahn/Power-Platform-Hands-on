@@ -17,6 +17,12 @@
 > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20TicketMaster%20Agent)를 참고하세요.
 4) 임직원 Q&A  에이전트: 파일, 엑셀, 쉐어포인트 등을 이용한 임직원 Q&A 에이전트를 제작해 봅니다.
 > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/%EC%B0%B8%EC%A1%B0%EC%9E%90%EB%A3%8C%20%EA%B8%B0%EB%B0%98%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8)를 참고하세요.
+5. Comming Soon Hands-On
+> 아래 데모는 Cloud Soltuion Architect 정현진님이 만든 환상적인 데모영상입니다.
+> 현진님의 링크드인은 [여기](https://www.linkedin.com/in/jinjung1007)를 참고하세요.
+- 직장인의 가장 큰 고민은 점심메뉴죠? 오늘 점심 요기땅 Agent - 데모영상은 [여기](https://youtu.be/Oi1ExK6LFsw)요!
+- 주간보고를 ppt 형태로 제안해 준다고? 주간보고 Agent - 데모영상은 [여기](https://www.youtube.com/watch?v=WhJ5TASD5iQ)요!
+- 직원 관심사에 맞는 뉴스를 보내준다고? AI News Agent Agent - 데모영상은 [여기](https://youtu.be/T5AQsowb4nc)요!
 
 ### Power Apps
 1) 3분 카레보다 빠른 - AI 현장 안전검사 앱: 전자레인지에 3분 카레를 넣고 돌리고 난 뒤에 뭘 할까요?   
