@@ -6,7 +6,7 @@
 - Copilot Studio의 경우, AI Orchestration(생성형 AI) 기반의 서로 다른 컨셉의 에이전트를 직접 만들어봅니다.
 - 만들어진 에이전트는 M365 Copilot, Copilot Chat을 통해 **Copilot is UI for AI** 를 직접 설정해 봅니다.  
 
-## 워크숍 컨셉 
+## 워크숍 요약 
 
 ### Copilot Studio
 1) 본사 공식 워크숍: 마이크로소프트 본사에서 나오는 공식 워크숍 자료입니다.     
