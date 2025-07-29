@@ -1,4 +1,5 @@
 # Power Platform의 워크숍 및 트레이닝 자료입니다. 
+> 여기는 핸즈온 자료로, Azure와 결합된 Microsoft AI Agent 자료는 [여기](https://github.com/ChangJu-Ahn/Microsoft-AI-Agent)에도 많아요! :)
 
 ## 목적
 - 로우코드에 대한 이해도 및 프로코드와의 연계를 직접 실습합니다.
