@@ -3,3 +3,5 @@
 3) Agent Cost Controls Session: [여기](https://www.youtube.com/watch?v=W9WkVGmmMjM&feature=youtu.be)
 4) Copilot Studio Estimator: [여기](https://aka.ms/CopilotStudioEstimator)
 5) Copilot Studio Implementation: [여기](https://aka.ms/CopilotStudioImplementationGuide)
+6) Copilot Studio License Guide: [여기](https://go.microsoft.com/fwlink/?linkid=2320995)
+7) Power Platform License Guide(Copilot Studio 라이선스 가이드는 별도): [여기](https://go.microsoft.com/fwlink/?linkid=2085130)
