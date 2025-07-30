@@ -1,0 +1,5 @@
+1) Administering and Governing Agents: [여기](https://marketingassets.microsoft.com/gdc/gdcnFRMn1/original)
+2) Agent Cost Management: [여기](https://marketingassets.microsoft.com/gdc/gdcPkYDxW/original)
+3) Agent Cost Controls Session: [여기](https://www.youtube.com/watch?v=W9WkVGmmMjM&feature=youtu.be)
+4) Copilot Studio Estimator: [여기](https://aka.ms/CopilotStudioEstimator)
+5) Copilot Studio Implementation: [여기](https://aka.ms/CopilotStudioImplementationGuide)
