@@ -9,7 +9,7 @@
 
 ## 워크숍 요약 
 
-### Copilot Studio
+### - Copilot Studio
 1) 본사 공식 워크숍: 마이크로소프트 본사에서 나오는 공식 워크숍 자료입니다.     
 이 자료를 기반으로 국내 전문 파트너사가 로컬화하여 서비스하는 내용도 함께 포함되어 있습니다.
     > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/Copilot%20Studio%20-%20%EB%B3%B8%EC%82%AC%20%EA%B3%B5%EC%8B%9D%20%EC%9B%8C%ED%81%AC%EC%88%8D)를 참고하세요.
@@ -35,12 +35,12 @@
     - 주간보고를 ppt 형태로 제안해 준다고? 주간보고 Agent - 데모영상은 [여기](https://www.youtube.com/watch?v=WhJ5TASD5iQ)요!
     - 직원 관심사에 맞는 뉴스를 보내준다고? AI News Agent Agent - 데모영상은 [여기](https://youtu.be/T5AQsowb4nc)요!
 
-### Power Apps
+### - Power Apps
 1) 3분 카레보다 빠른 - AI 현장 안전검사 앱: 전자레인지에 3분 카레를 넣고 돌리고 난 뒤에 뭘 할까요?    
    그동안에 생성형 AI가 접목된 **AI 현장 안전검사 앱**을 만들어 볼까요?   
    > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/Power%20Apps%20-%203%EB%B6%84%EC%B9%B4%EB%A0%88%EB%B3%B4%EB%8B%A4%20%EB%B9%A0%EB%A5%B8%20AI%20%ED%98%84%EC%9E%A5%20%EC%95%88%EC%A0%84%EA%B2%80%EC%82%AC%20%EC%95%B1/README.md)를 참고하세요.
 
-### Power Platform Security
+### - Power Platform Security
 1) Power Platform v-net Integration: SaaS 솔루션을 Azure Virtual Network(private)와 통합이 가능하다면 믿으시겠어요?
    Microsoft Cloud Platform Solution Engineer인 나유강님의 깃헙리포에서 핸즈온 자료를 볼 수 있습니다.
    > 자세한 내용은 [여기](https://github.com/youkhi/Power-Platform-virtual-network-support/tree/main?tab=readme-ov-file)를 참고하세요.
