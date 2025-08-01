@@ -41,6 +41,6 @@
    > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/Power%20Apps%20-%203%EB%B6%84%EC%B9%B4%EB%A0%88%EB%B3%B4%EB%8B%A4%20%EB%B9%A0%EB%A5%B8%20AI%20%ED%98%84%EC%9E%A5%20%EC%95%88%EC%A0%84%EA%B2%80%EC%82%AC%20%EC%95%B1/README.md)를 참고하세요.
 
 ### - Power Platform Security
-1) Power Platform v-net Integration: SaaS 솔루션을 Azure Virtual Network(private)와 통합이 가능하다면 믿으시겠어요?
+1) Power Platform v-net Integration: SaaS 솔루션을 Azure Virtual Network(private)와 통합이 가능하다면 믿으시겠어요?    
    Microsoft Cloud Platform Solution Engineer인 나유강님의 깃헙리포에서 핸즈온 자료를 볼 수 있습니다.
    > 자세한 내용은 [여기](https://github.com/youkhi/Power-Platform-virtual-network-support/tree/main?tab=readme-ov-file)를 참고하세요.
