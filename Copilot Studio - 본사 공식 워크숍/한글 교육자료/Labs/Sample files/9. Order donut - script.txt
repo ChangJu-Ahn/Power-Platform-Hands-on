@@ -1,0 +1,65 @@
+kind: AdaptiveDialog
+modelDescription: |-
+  이 토픽은 도넛 주문 요청을 받아서 처리합니다.  
+  다음과 같은 질문에 답변합니다 : 도넛 주문합니다, 도넛을 배달해 줄 수 있나요?
+  한국어로 문의 및 답변해 주세요.
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: DonutFlavor
+    description: 주문하는 도넛의 맛입니다.  초코렛, 딸기, 바닐라 맛을 선택할 수 있습니다.
+    entity: StringPrebuiltEntity
+    shouldPromptUser: true
+
+  - kind: AutomaticTaskInput
+    propertyName: Glazing
+    description: 주문하는 도넛의 글레이징 유형입니다.  글레이징 추가, 글레이징 없음 을 선택할 수 있습니다.
+    entity: StringPrebuiltEntity
+    shouldPromptUser: true
+
+  - kind: AutomaticTaskInput
+    propertyName: Quantity
+    description: 주문하는 도넛의 수량 입니다.
+    entity: NumberPrebuiltEntity
+    shouldPromptUser: true
+    inputSettings:
+      validation: =Topic.Quantity >= 1
+      invalidPrompt:
+        activity: 도넛 주문 수량은 1개 이상 입니다.
+        mode: Strict
+
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: SetVariable
+      id: setVariable_j2Wz0f
+      variable: Topic.DonutsOrderSummary
+      value: "=\"주문이 등록되었습니다. \" & Topic.DonutFlavor & \" \" & Topic.Glazing & \" 도넛 \" & Topic.Quantity & \"개를 배송해 드리겠습니다.\""
+
+    - kind: SendActivity
+      id: sendActivity_oASvra
+      activity: "주문 요약 :  {Topic.DonutsOrderSummary} "
+
+inputType:
+  properties:
+    DonutFlavor:
+      displayName: DonutFlavor
+      description: 주문하는 도넛의 맛입니다.  초코렛, 딸기, 바닐라 맛을 선택할 수 있습니다.
+      type: String
+
+    Glazing:
+      displayName: Glazing
+      description: 주문하는 도넛의 글레이징 유형입니다.  글레이징 추가, 글레이징 없음 을 선택할 수 있습니다.
+      type: String
+
+    Quantity:
+      displayName: Quantity
+      description: 주문하는 도넛의 수량 입니다.
+      type: Number
+
+outputType:
+  properties:
+    DonutsOrderSummary:
+      displayName: DonutsOrderSummary
+      type: String

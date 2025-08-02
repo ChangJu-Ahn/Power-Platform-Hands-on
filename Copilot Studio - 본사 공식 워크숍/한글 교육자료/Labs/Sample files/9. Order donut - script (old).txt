@@ -1,0 +1,62 @@
+kind: AdaptiveDialog 
+modelDescription: "This tool can handle queries like these: Order Donuts, I would like a donut, Can I get donuts" 
+inputs:
+  - kind: AutomaticTaskInput
+    propertyName: DonutFlavor
+    description: This is the flavor of the donut you would like to order you can respond with Chocolate, Strawberry, or Vanilla as potential options 
+    entity: StringPrebuiltEntity 
+    shouldPromptUser: true
+
+  - kind: AutomaticTaskInput
+    propertyName: Glazing
+    description: This is to indicate the type of glazing for the donut you would like to order you can respond with add Glazing, or No glazing.
+    entity: StringPrebuiltEntity
+    shouldPromptUser: true
+
+  - kind: AutomaticTaskInput
+    propertyName: Quantity
+    description: This is the number of donuts that you would like to order
+    entity: NumberPrebuiltEntity
+    shouldPromptUser: true
+    inputSettings:
+      validation: =Topic.Quantity >= 1
+      invalidPrompt:
+        activity: You have order at least one donut.
+        mode: Strict
+
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent: {}
+  actions:
+    - kind: SetVariable
+      id: setVariable_SSWcYV
+      variable: Topic.DonutsOrderSummary
+      value: "=\"You have successfully ordered \" & Topic.Quantity & \" \"& Topic.DonutFlavor& \" Donuts\"& \" with \" & Topic.Glazing"
+
+    - kind: SendActivity
+      id: sendActivity_dKqF1f
+      activity: "Order summary: {Topic.DonutsOrderSummary}"
+
+inputType:
+  properties:
+    DonutFlavor:
+      displayName: DonutFlavor
+      description: This is the flavor of the donut you would like to order you can respond with Chocolate, Strawberry, or Vanilla as potential options
+      type: String
+
+    Glazing:
+      displayName: Glazing
+      description: This is to indicate the type of glazing for the donut you would like to order you can respond with add Glazing, or No glazing.
+      type: String
+
+    Quantity:
+      displayName: Quantity
+      description: This is the number of donuts that you would like to order
+      type: Number
+
+    outputType:
+      properties:
+        DonutsOrderSummary:
+          displayName: DonutsOrderSummary
+          type: String
