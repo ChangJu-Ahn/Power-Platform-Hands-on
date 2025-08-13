@@ -34,10 +34,11 @@
     - 직장인의 가장 큰 고민은 점심메뉴죠? 오늘 점심 요기땅 Agent - 데모영상은 [여기](https://youtu.be/Oi1ExK6LFsw)요!
     - 주간보고를 ppt 형태로 제안해 준다고? 주간보고 Agent - 데모영상은 [여기](https://www.youtube.com/watch?v=WhJ5TASD5iQ)요!
     - 직원 관심사에 맞는 뉴스를 보내준다고? AI News Agent Agent - 데모영상은 [여기](https://youtu.be/T5AQsowb4nc)요!
+      
 11) 로컬 MCP 기반의 농담 에이전트 입니다.
-    > 우리가 직접 개발한 로컬 MCP를 기반으로 Copilot Studio와 연동이 되는 게 궁금하시죠?
-    > VSC를 이용해서 직접 로컬에 MCP를 구성하고, Azure Container App로 배포. 그리고 Copilot Studio까지 쭉~ 연결해 보는 핸즈온입니다.
-    > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/mcsmcp-KR/blob/main/README.md)를 참고하세요.
+    > 우리가 직접 개발한 로컬 MCP를 기반으로 Copilot Studio와 연동이 되는 게 궁금하시죠?    
+    > VSC를 이용해서 직접 로컬에 MCP를 구성하고, Azure Container App로 배포. 그리고 Copilot Studio까지 쭉~ 연결해 보는 핸즈온입니다.   
+    > 자세한 내용은 [여기](https://github.com/ChangJu-Ahn/mcsmcp-KR/blob/main/README.md)를 참고하세요.   
 
 ### - Power Apps
 1) 3분 카레보다 빠른 - AI 현장 안전검사 앱: 전자레인지에 3분 카레를 넣고 돌리고 난 뒤에 뭘 할까요?    
