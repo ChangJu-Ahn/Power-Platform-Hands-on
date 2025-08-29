@@ -493,6 +493,11 @@ paths:
           in: query
           required: false
           type: string
+        - name: page
+          in: query
+          required: false
+          type: integer
+          default: 1
   /discovery/v2/events/{EventId}:
     get:
       responses:
