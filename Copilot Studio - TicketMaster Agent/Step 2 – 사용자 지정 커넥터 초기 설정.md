@@ -16,7 +16,7 @@
 
 ## 1. Power Platform에서 새 사용자 지정 커넥터 만들기
 
-1. **Power Platform** 포털에 접속합니다.  
+1. **Power Platform** 포털에 접속합니다.  --> https://make.powerautomate.com/
 2. **새 사용자 지정 커넥터(New custom connector)** 생성 > **빈 상태에서 만들기(Blank)** 선택  
 3. 이름을 식별 가능하게 지정합니다.  
    - 예: `TicketMaster20250724`
