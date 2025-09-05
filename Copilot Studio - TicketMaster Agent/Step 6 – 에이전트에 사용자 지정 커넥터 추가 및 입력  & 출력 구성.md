@@ -31,6 +31,9 @@
 
 ![설명 작성 예시](https://github.com/user-attachments/assets/6955e4a2-a92f-411d-9faa-8792e5f4127a)
 
+3. **추가 정보**탭에서 사용할 인증을 다음과 같이 '유저 -> 제작자'로 변경합니다.
+   <img width="892" height="867" alt="image" src="https://github.com/user-attachments/assets/d92372ed-34d8-4618-91c4-426178fb6c34" />
+
 
 ---
 
