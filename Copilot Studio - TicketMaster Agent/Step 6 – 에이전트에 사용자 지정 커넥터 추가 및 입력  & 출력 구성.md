@@ -34,10 +34,9 @@
 3. **추가 정보**탭에서 사용할 인증을 다음과 같이 '유저 -> 제작자'로 변경합니다.
    <img width="892" height="867" alt="image" src="https://github.com/user-attachments/assets/d92372ed-34d8-4618-91c4-426178fb6c34" />
 
-
 ---
 
-### 입력(Inputs) 설정
+## 입력(Inputs) 설정
 
 1. **Inputs** 섹션에서 각 매개변수에 대한 \*\*설명(Description)\*\*을 추가합니다. 대표적으로 다음과 같이 작성할 수 있습니다.
 
@@ -54,14 +53,26 @@
   ![Start Date/Time 설명 예시](https://github.com/user-attachments/assets/ca5bcc99-aaf3-4d76-8cbe-229f3f2d51ad)
 
 
-
-
-
-
 2. 각 입력 매개변수의 **‘사용자에게 프롬프트헤야 합니다(Should prompt user)’** 옵션은 체크하지 않은 상태로 둡니다.
 
    * 사용자 경험 개선을 위해 현재 실습 단계에서는 체크하지 않은 상태로 두었지만, 이후 설정을 변경할 수 있습니다.
-  
+
+---
+
+## 입력 매개변수의 필수 값 제거
+1. 위에서 설정한 Tool을 기준으로 다음과 같이 코드를 볼 수 있는 화면으로 이동합니다.
+   <img width="1538" height="784" alt="image" src="https://github.com/user-attachments/assets/35ea2a1d-5a95-4733-8194-a2289053b373" />
+
+2. 이미 설정된 코드를 기준으로 아래 빨간색 영역이 없다면, 입력해 줍니다.
+   <img width="1453" height="1219" alt="image" src="https://github.com/user-attachments/assets/0bb2e0c0-ccaa-4e1a-a276-f1ce5d8fed62" />
+
+  **⚠️ IMPORTANT**   
+  아래 코드를 복사하여 붙여넣을 수 있는데, 들여쓰기를 주의해야 합니다. 들여쓰기는 Description 라인에 맞춰주세요.
+  ```
+  shouldPromptUser: false
+  ```
+
+--- 
 
 ##  결과
 
