@@ -38,5 +38,15 @@
     <img width="1663" height="1281" alt="image" src="https://github.com/user-attachments/assets/5b432a8a-fab1-4af4-a7d9-e8832c843b77" />
 
 
+### 2. AI를 이용한 AI Prompt 만들기
+1. `http://make.powerapps.com/` 접속
+2. 아래와 같이 접속
+   <img width="933" height="1268" alt="image" src="https://github.com/user-attachments/assets/0ac4fc0f-a8aa-48e2-a77f-628af608ef60" />
+  
+3. 메뉴 중에서 prompt로 접속
+   <img width="1567" height="1053" alt="image" src="https://github.com/user-attachments/assets/2837bae7-4168-4b02-96ee-76a0f4d0e1fc" />
 
+4. 빈 프롬프트 선택
+   <img width="1092" height="936" alt="image" src="https://github.com/user-attachments/assets/07f6bb1b-68f4-4d40-91ee-2476e4fe13f2" />
 
+5. [여기]([https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/AIHandsOn/PowerApps/1.AppsWithAIPrompt/Files](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/AIPrompt.txt)) 프롬프트 입력. 그리고 프롬프트 제목을 'HR 신규 입사자 추출'으로 입력
