@@ -134,4 +134,8 @@
 
 14. 그리고 나머지 사진도 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/Files)에에 업로드 되어있으니 테스트해 봅니다.
 
+15. 아래와 같이 정리가 잘 된 사진을 업로드 하면, 결과 값으로 '위험하지 않다고' 값을 잘 반환하는 걸 볼 수 있습니다.
+    <img width="866" height="1184" alt="image" src="https://github.com/user-attachments/assets/37c6ad8f-d3ce-4e5e-9a6b-9611a6398113" />
+
+
  
