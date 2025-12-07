@@ -78,6 +78,10 @@
 
 7. 그리고 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/Files/%EA%B5%AC%ED%9A%8D%20%EC%84%A0%EC%97%86%EC%9D%8C.png) 링크에 사진을 다운로드받아서 확인해 봅니다.
 
+8. 다음과 같이 직접 이미지를 입력해서 테스트를 했을 때 결과가 잘 나오는지 확인해 본다. 이 예시의 사진은 '정리되지 않은 현장' 이므로 아래와 같이 나오는 게 맞다.
+   <img width="2207" height="1229" alt="image" src="https://github.com/user-attachments/assets/b20e8b6c-2fdb-4f52-b285-ffa0ed158c7c" />
+
+9. 잘 나왔다면, 
 
 ---
 
