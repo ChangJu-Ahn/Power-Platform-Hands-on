@@ -50,3 +50,13 @@
    <img width="1092" height="936" alt="image" src="https://github.com/user-attachments/assets/07f6bb1b-68f4-4d40-91ee-2476e4fe13f2" />
 
 5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/AIPrompt.txt) 프롬프트 입력. 그리고 프롬프트 제목을 'HR 신규 입사자 추출'으로 입력
+   <img width="696" height="575" alt="image" src="https://github.com/user-attachments/assets/fe0b812f-b668-40e4-9941-f2304b6dea73" />
+
+6. 다음과 같이 가장 아래에 있는 파라미터 항목에 Image & Document를 선택하고 '신규입사자'로 변경하고 저장
+   <img width="1034" height="597" alt="image" src="https://github.com/user-attachments/assets/690291c7-8a1e-4a49-beed-a049a28b0cea" />
+
+7. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/New%20Joiner%20List%20-%20sample.png) 이메일 템플릿 캡쳐본을 업로드하여 값을 잘 인식하는지 확인. 값이 잘 나왔다면 최종 저장 완료.
+   <img width="1107" height="617" alt="image" src="https://github.com/user-attachments/assets/f662c6e3-8482-46dd-9748-b71c3079846f" />
+
+
+
