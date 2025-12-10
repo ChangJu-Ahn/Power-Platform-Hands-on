@@ -47,8 +47,8 @@
 5. 커넥션이 생성되면, 이전에 만들어놨던 프롬프트를 연결한 뒤 이메일 본문을 추가한다.
   <img width="1191" height="1118" alt="image" src="https://github.com/user-attachments/assets/c2a0cad6-16b7-486b-ac11-9b44862b1b2f" />
 
-6. + 버튼을 눌러 `Parse JSON`을 선택하고 Content에는 위에서 동작해서 나온 결과 값 중 `Text`를 추가한다.
-     <img width="1054" height="584" alt="image" src="https://github.com/user-attachments/assets/95b35315-8f44-493b-85cc-980913126492" />
+6. + 버튼을 눌러 `Parse JSON`을 선택하고 Content에는 위에서 동작해서 나온 결과 값 중 `Text`를 추가한다.    
+  <img width="1054" height="584" alt="image" src="https://github.com/user-attachments/assets/95b35315-8f44-493b-85cc-980913126492" />
 
 7. 그리고 아래 빨간색 테두리 버튼의 `Sample payload`를 선택하고 다음 값을 붙여넣는다.
    <img width="656" height="565" alt="image" src="https://github.com/user-attachments/assets/dd586770-8833-4f11-82ba-a2425bd71e4c" />
@@ -68,16 +68,16 @@
 9. + 버튼을 눌러 `Excel Online (Business)`를 클릭한 뒤 ` Add a row into a table`을 선택한다.
      <img width="1046" height="624" alt="image" src="https://github.com/user-attachments/assets/aa15bfe7-e7ab-4e2c-aac4-01ca44834d9b" />
 
-10. 신규로 연결한다면, 다음과 같이 커넥션을 만든다.
+10. 신규로 연결한다면, 다음과 같이 커넥션을 만든다.    
     <img width="262" height="236" alt="image" src="https://github.com/user-attachments/assets/48280edf-8220-490c-8035-8f8c51b5fade" />
 
-11. 커넥션 생성 후 아까 업로드한 엑셀의 경로와 표를 연결한다. 제대로 연결한 뒤 `Show All`을 누르면 아까 각 표에 나왔던 컬럼을 화면에서 확인할 수 있다.
+11. 커넥션 생성 후 아까 업로드한 엑셀의 경로와 표를 연결한다. 제대로 연결한 뒤 `Show All`을 누르면 아까 각 표에 나왔던 컬럼을 화면에서 확인할 수 있다.    
     <img width="1046" height="1129" alt="image" src="https://github.com/user-attachments/assets/93e62b98-b33c-4023-93e4-0aa20ae2ecc3" />
 
-12. 아까 위에서 Parse Json으로 변환했던 값을 각 엑셀의 컬럼에 대입해 준다.
+12. 아까 위에서 Parse Json으로 변환했던 값을 각 엑셀의 컬럼에 대입해 준다.    
     <img width="316" height="272" alt="image" src="https://github.com/user-attachments/assets/7f91932b-2e40-4763-9c37-63cdecf775ab" />
     
-13. 테스트 이메일을 보냈을 때 반영이 잘 되는지 확인.
+13. 테스트 이메일을 보냈을 때 반영이 잘 되는지 확인.   
     <img width="2842" height="1273" alt="image" src="https://github.com/user-attachments/assets/c309f74b-be1a-4c8a-a02d-f57874a81a81" />
 
 14. 테스트를 위한 이메일 본문은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerAutomate/1.%20WeeklySummaryByEmail/Files/sampleEmail.md)에서 확인할 수 있고, 오토메이트 필터링에 설정되어 있는 `주간보고` 라는 제목이 아닌 다른 이메일도 여러 개 보내보자. 다른 이메일이라면, 엑셀에 요약되지 않아야 정상이다.
