@@ -18,3 +18,9 @@
    <img width="1946" height="1202" alt="image" src="https://github.com/user-attachments/assets/f2f6c552-eafa-412f-8ee0-f4c6542b9433" />
 
 7. 내용을 확인한 뒤 이상이 없다면, 최종 Save를 눌러 마무리합니다.
+
+### 2. AI 기반의 자동화된 워크플로우 생성
+1. `https://make.powerautomate.com/` 접속 후 좌측 `create`를 누릅니다.
+   <img width="1087" height="1005" alt="image" src="https://github.com/user-attachments/assets/9d9f59ac-4997-486a-95b3-8511ddfa87c4" />
+
+2. 
