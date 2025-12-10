@@ -23,4 +23,25 @@
 1. `https://make.powerautomate.com/` 접속 후 좌측 `create`를 누릅니다.
    <img width="1087" height="1005" alt="image" src="https://github.com/user-attachments/assets/9d9f59ac-4997-486a-95b3-8511ddfa87c4" />
 
-2. 
+2. `자동화된 클라우드`를 선택 후 다음과 같이 설정한 뒤 `생성` 버튼을 누릅니다.
+   <img width="935" height="601" alt="image" src="https://github.com/user-attachments/assets/1a64e355-a82b-4f84-a9d2-78f4707396b6" />
+
+3. 가장 상단의 트리거를 선택 후 `Subject Filter`를 클릭. 이후 다음과 같이 필터구문을 추가합니다.
+   <img width="1141" height="1149" alt="image" src="https://github.com/user-attachments/assets/a69be59c-f90d-4ffd-8ade-459bee8dc74c" />
+   ```
+      contains(
+        toLower(
+          replace(
+            triggerOutputs()?['body/Subject'],
+            ' ',
+            ''
+          )
+        ),
+        '주간보고'
+      )
+
+   @contains(replace(triggerOutputs()?['body/Subject'],' ',''), '주간보고)
+   ```
+
+
+<img width="311" height="296" alt="image" src="https://github.com/user-attachments/assets/ce7374fd-515a-4375-9ba2-fd450b88133e" />
