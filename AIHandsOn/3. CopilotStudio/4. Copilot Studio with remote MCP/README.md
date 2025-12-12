@@ -28,3 +28,4 @@
 ### 4. 실제 API 값과 검증
 <img width="1706" height="637" alt="image" src="https://github.com/user-attachments/assets/c1b0e38e-6d5c-48d8-8474-720413c8f6be" />
 
+
