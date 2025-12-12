@@ -1,8 +1,10 @@
-## 이번 핸즈온은 Remote MCP를 바로 연결하는 핸즈온입니다. 기존 HR 시스템의 API를 FastMCP로 랩핑하여 서빙합니다. 즉, API 값과 MCP의 반환 값은 동일합니다.
+## 실습: Remote MCP를 직접 Copilot Studio에 연결하는 핸즈온
+기존 HR 시스템의 API를 FastMCP로 랩핑하여 서빙합니다. 즉, API 값과 MCP의 반환 값은 동일합니다.
+
+- Remote MCP: https://hr-mcp-server.politefield-8ac4922f.koreacentral.azurecontainerapps.io/mcp
+- HR API Swagger https://hr-api-app.politefield-8ac4922f.koreacentral.azurecontainerapps.io/docs
 
 ---
-
-
 
 ### 1. 리모트 MCP 테스트
 <img width="853" height="529" alt="image" src="https://github.com/user-attachments/assets/a29c167b-2783-4e8d-b15e-54ef900a0867" />
@@ -25,3 +27,4 @@
 
 ### 4. 실제 API 값과 검증
 <img width="1706" height="637" alt="image" src="https://github.com/user-attachments/assets/c1b0e38e-6d5c-48d8-8474-720413c8f6be" />
+
