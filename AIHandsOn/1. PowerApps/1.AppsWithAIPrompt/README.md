@@ -11,13 +11,13 @@
 4. 빈 프롬프트 선택
    <img width="1092" height="936" alt="image" src="https://github.com/user-attachments/assets/07f6bb1b-68f4-4d40-91ee-2476e4fe13f2" />
 
-5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/AIHandsOn/PowerApps/1.AppsWithAIPrompt/Files) 프롬프트 입력. 그리고 프롬프트 제목을 '현장 사고사진 분석'으로 입력
+5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/1.AppsWithAIPrompt/Files/AIPrompt.txt) 프롬프트 입력. 그리고 프롬프트 제목을 '현장 사고사진 분석'으로 입력
    
 6. 프롬프트 하단의 '사고 사진'을 지우고 다음과 같이 실제 변수를 입력할 수 있도록 입력합니다.
    <img width="753" height="805" alt="image" src="https://github.com/user-attachments/assets/50e84a3b-13e7-4494-b916-6895d56f03d7" />
    <img width="1166" height="1077" alt="image" src="https://github.com/user-attachments/assets/19758e8e-af42-4450-960d-5885f67e3ed6" />
 
-7. 그리고 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/1.AppsWithAIPrompt/Files/%EA%B5%AC%ED%9A%8D%20%EC%84%A0%EC%97%86%EC%9D%8C.png) 링크에 사진을 다운로드받아서 확인해 봅니다.
+7. 그리고 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/1.AppsWithAIPrompt/Files/%EA%B5%AC%ED%9A%8D%20%EC%84%A0%EC%97%86%EC%9D%8C.png) 링크에 사진을 다운로드받아서 확인해 봅니다.
 
 8. 다음과 같이 직접 이미지를 입력해서 테스트를 했을 때 결과가 잘 나오는지 확인해 본다. 이 예시의 사진은 '정리되지 않은 현장' 이므로 아래와 같이 나오는 게 맞다.
    <img width="2207" height="1229" alt="image" src="https://github.com/user-attachments/assets/b20e8b6c-2fdb-4f52-b285-ffa0ed158c7c" />
@@ -73,7 +73,7 @@
     <img width="1362" height="1039" alt="image" src="https://github.com/user-attachments/assets/e34c8ff9-d3f6-4faf-a51e-11546a1347d4" />
     <img width="1495" height="698" alt="image" src="https://github.com/user-attachments/assets/313d25c1-394a-4366-9836-e1950ff31a29" />
 
-14. 그리고 나머지 사진도 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/1.AppsWithAIPrompt/Files/%EC%9E%98%20%EC%A7%80%EC%BC%9C%EC%A7%84%20%20%EC%84%A02.jpg)에 업로드 되어있으니 테스트해 봅니다.
+14. 그리고 나머지 사진도 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/AIHandsOn/1.%20PowerApps/1.AppsWithAIPrompt/Files)에 업로드 되어있으니 테스트해 봅니다.
 
 15. 아래와 같이 정리가 잘 된 사진을 업로드 하면, 결과 값으로 '위험하지 않다고' 값을 잘 반환하는 걸 볼 수 있습니다.
     <img width="866" height="1184" alt="image" src="https://github.com/user-attachments/assets/37c6ad8f-d3ce-4e5e-9a6b-9611a6398113" />
