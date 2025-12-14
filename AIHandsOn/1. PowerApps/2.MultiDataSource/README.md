@@ -13,7 +13,7 @@
 2. 아래와 같이 접속
    <img width="2182" height="1266" alt="image" src="https://github.com/user-attachments/assets/b4e4351b-fe4f-4626-b4fb-08bee69a48a6" />
   
-3. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/hr-api-openapi.json) 파일의 OpenAPI 파일을 다운로드
+3. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/hr-api-openapi.json) 파일의 OpenAPI 파일을 다운로드
 
 4. Custom Connector 화면에서 아래 링크를 클릭. 그리고 위에서 다운로드 받은 파일을 Import. 그리고 이름은 xx-hr-api로 저장
    <img width="1940" height="552" alt="image" src="https://github.com/user-attachments/assets/ec40ad54-01ac-4a41-955d-ae86060bcfd2" />
@@ -49,13 +49,13 @@
 4. 빈 프롬프트 선택
    <img width="1092" height="936" alt="image" src="https://github.com/user-attachments/assets/07f6bb1b-68f4-4d40-91ee-2476e4fe13f2" />
 
-5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/AIPrompt.txt) 프롬프트 입력. 그리고 프롬프트 제목을 'HR 신규 입사자 추출'으로 입력
+5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/AIPrompt.txt) 프롬프트 입력. 그리고 프롬프트 제목을 'HR 신규 입사자 추출'으로 입력
    <img width="696" height="575" alt="image" src="https://github.com/user-attachments/assets/fe0b812f-b668-40e4-9941-f2304b6dea73" />
 
 6. 다음과 같이 가장 아래에 있는 파라미터 항목에 Image & Document를 선택하고 '신규입사자'로 변경하고 저장
    <img width="1034" height="597" alt="image" src="https://github.com/user-attachments/assets/690291c7-8a1e-4a49-beed-a049a28b0cea" />
 
-7. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/New%20Joiner%20List%20-%20sample.png) 이메일 템플릿 캡쳐본을 업로드하여 값을 잘 인식하는지 확인. 값이 잘 나왔다면 최종 저장 완료.
+7. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/New%20Joiner%20List%20-%20sample.png) 이메일 템플릿 캡쳐본을 업로드하여 값을 잘 인식하는지 확인. 값이 잘 나왔다면 최종 저장 완료.
    <img width="1107" height="617" alt="image" src="https://github.com/user-attachments/assets/f662c6e3-8482-46dd-9748-b71c3079846f" />
 
 
@@ -164,7 +164,7 @@
    <img width="857" height="381" alt="image" src="https://github.com/user-attachments/assets/72855309-fa67-40e8-b486-ef9577ec0145" />
    <img width="502" height="317" alt="image" src="https://github.com/user-attachments/assets/930a9421-c1ed-4b7b-8932-3cbe679c923b" />
 
-9. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/New%20Joiner%20List%20-%20sample.png) 이미지를 다운로드 받아 업로드를 해 본다.
+9. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/Test4.png) 이미지를 다운로드 받아 업로드를 해 본다.
     또는 형식을 맞춰서 임의로 엑셀 또는 다른 곳에 입력해서 캡쳐 본을 입력해 본다.
    <img width="931" height="543" alt="image" src="https://github.com/user-attachments/assets/33bb955f-e473-4498-b3b3-751f132740a7" />
    <img width="199" height="218" alt="image" src="https://github.com/user-attachments/assets/e4171b09-560c-4a7f-ac9b-80732492b8eb" />
