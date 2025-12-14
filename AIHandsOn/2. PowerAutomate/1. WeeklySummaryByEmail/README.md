@@ -11,16 +11,16 @@
 4. 빈 프롬프트 선택
    <img width="1323" height="1214" alt="image" src="https://github.com/user-attachments/assets/4e6fca54-675f-42bb-900b-14cc5c790a0b" />
 
-5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerAutomate/1.%20WeeklySummaryByEmail/Files/prompt.txt) 프롬프트를 복사하여 저장합니다. 이때 제목은 `프로젝트 진척사항 요약`로 합니다. 그리고 하단의 `email`이라고 되어있는 텍스트를 지우고 `/`를 누른 뒤 텍스트를 선택해 email 변수를 받도록 설정합니다.
+5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/2.%20PowerAutomate/1.%20WeeklySummaryByEmail/Files/prompt.txt) 프롬프트를 복사하여 저장합니다. 이때 제목은 `프로젝트 진척사항 요약`로 합니다. 그리고 하단의 `email`이라고 되어있는 텍스트를 지우고 `/`를 누른 뒤 텍스트를 선택해 email 변수를 받도록 설정합니다.
    <img width="920" height="530" alt="image" src="https://github.com/user-attachments/assets/cad10054-f0d8-403c-9df6-563be680fd38" />
 
-6. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/AIHandsOn/PowerAutomate/1.%20WeeklySummaryByEmail/Files) 샘플 이메일을 참고하여 테스트를 진행합니다.
+6. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/tree/main/AIHandsOn/2.%20PowerAutomate/1.%20WeeklySummaryByEmail/Files) 샘플 이메일을 참고하여 테스트를 진행합니다.
    <img width="1946" height="1202" alt="image" src="https://github.com/user-attachments/assets/f2f6c552-eafa-412f-8ee0-f4c6542b9433" />
 
 7. 내용을 확인한 뒤 이상이 없다면, 최종 Save를 눌러 마무리합니다.
 
 ### 2.원드라이브 내 주간보고 엑셀 위치 저장
-1. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerAutomate/1.%20WeeklySummaryByEmail/Files/AI%20Apps%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A7%84%EC%B2%99%EC%82%AC%ED%95%AD.xlsx) 파일을 로컬로 다운로드 한다.
+1. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/2.%20PowerAutomate/1.%20WeeklySummaryByEmail/Files/AI%20Apps%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A7%84%EC%B2%99%EC%82%AC%ED%95%AD.xlsx) 파일을 로컬로 다운로드 한다.
 
 2. `onedrive.com`으로 이동해 로그인한 뒤, 다음과 같이 `My files`에 `Project`라는 폴더를 한 개 생성한다.
    <img width="1277" height="746" alt="image" src="https://github.com/user-attachments/assets/5d181a9c-7934-4153-90ab-761cc9d24b9a" />
@@ -80,7 +80,7 @@
 13. 테스트 이메일을 보냈을 때 반영이 잘 되는지 확인.   
     <img width="2842" height="1273" alt="image" src="https://github.com/user-attachments/assets/c309f74b-be1a-4c8a-a02d-f57874a81a81" />
 
-14. 테스트를 위한 이메일 본문은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerAutomate/1.%20WeeklySummaryByEmail/Files/sampleEmail.md)에서 확인할 수 있고, 오토메이트 필터링에 설정되어 있는 `주간보고` 라는 제목이 아닌 다른 이메일도 여러 개 보내보자. 다른 이메일이라면, 엑셀에 요약되지 않아야 정상이다.
+14. 테스트를 위한 이메일 본문은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/2.%20PowerAutomate/1.%20WeeklySummaryByEmail/Files/sampleEmail.md)에서 확인할 수 있고, 오토메이트 필터링에 설정되어 있는 `주간보고` 라는 제목이 아닌 다른 이메일도 여러 개 보내보자. 다른 이메일이라면, 엑셀에 요약되지 않아야 정상이다.
 
 
 
