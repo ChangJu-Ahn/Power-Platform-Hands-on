@@ -71,7 +71,7 @@
 4. 신규 데이터소스에 위에서 만든 데이터 소스 2개를 우선 추가합니다.
    <img width="516" height="619" alt="image" src="https://github.com/user-attachments/assets/cbbe0cbd-fc40-4e09-bd39-58a04b325632" />
 
-5. 시스템에 저장되어 있지 않고, HR 담당자만 가지고 있는 가상의 엑셀파일을 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/PowerApps/2.MultiDataSource/Files/HR%20Employee%20Excel.xlsx)에서 다운로드 후 바탕화면에 저장한다.
+5. 시스템에 저장되어 있지 않고, HR 담당자만 가지고 있는 가상의 엑셀파일을 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/HR%20Employee%20Excel.xlsx)에서 다운로드 후 바탕화면에 저장한다.
 
 6. 방금 다운로드 받은 샘플 액셀을 연결하기 위해 다음과 같이 검색 후 추가한다. Import할 때 `표1`을 선택해서 마무리한다.
    <img width="287" height="492" alt="image" src="https://github.com/user-attachments/assets/d65db43a-258e-4466-a6b9-508f9d4276f8" />
