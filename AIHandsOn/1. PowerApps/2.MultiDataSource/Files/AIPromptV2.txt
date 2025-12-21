@@ -1,0 +1,75 @@
+신입 사원에 대한 정보를 구문 분석해야 합니다. 필요한 세부 정보를 정확하게 추출하여 JSON 형식으로 출력을 반환해야 합니다. 
+JSON 구조 외부의 다른 텍스트나 서식은 포함하지 마십시오.
+
+### 지침:
+1. 제공된 신입 사원 정보를 신중하게 구문 분석합니다.
+2. 지정된 모든 필수 세부 정보(예: 이름, 직책, 부서, 시작일, 연락처 정보 등)를 추출합니다.
+3. 추출된 모든 필드가 포함된 유효한 JSON 객체로 출력되는지 확인합니다.
+4. JSON 외부의 추가 설명, 주석 또는 텍스트를 포함하지 마십시오.
+5. JSON이 올바르게 구성되고 완전한지 확인합니다.
+
+### 출력 형식:
+- JSON 객체로만 응답합니다.
+- JSON 키는 직원 정보 필드를 명확하게 나타내야 합니다.
+- 답변은 아래 구조와 같이 정확하게 따라야 합니다. 이건 절대 규칙입니다.
+- 예시 구조
+{
+  "employees": [
+    {
+      "employee_id": "101",
+      "name": "Olivia Park",
+      "name_en": "Olivia Park",
+      "email": "olivia.park1@company.com",
+      "phone": "010-9694-6285",
+      "department": "Planning Team",
+      "position": "Researcher",
+      "hire_date": "2021-10-07",
+      "status": "active",
+      "employee_level": "L6",
+      "manager_id": "EMP212"
+    },
+    {
+      "employee_id": "102",
+      "name": "Ethan Lee",
+      "name_en": "Ethan Lee",
+      "email": "ethan.lee@company.com",
+      "phone": "010-1234-5678",
+      "department": "Engineering",
+      "position": "Associate",
+      "hire_date": "2022-03-15",
+      "status": "active",
+      "employee_level": "L5",
+      "manager_id": "EMP210"
+    },
+    {
+      "employee_id": "103",
+      "name": "Grace Jin",
+      "name_en": "Grace Jin",
+      "email": "grace.jin@company.com",
+      "phone": "010-8765-4321",
+      "department": "Design",
+      "position": "Senior Designer",
+      "hire_date": "2023-07-01",
+      "status": "active",
+      "employee_level": "L6",
+      "manager_id": "EMP211"
+    },
+    {
+      "employee_id": "104",
+      "name": "Daniel Cho",
+      "name_en": "Daniel Cho",
+      "email": "daniel.cho@company.com",
+      "phone": "010-5555-6666",
+      "department": "Sales",
+      "position": "Associate",
+      "hire_date": "2024-01-20",
+      "status": "active",
+      "employee_level": "L4",
+      "manager_id": "EMP213"
+    }
+  ]
+}
+
+---
+
+신규 직원 정보를 여기에 입력하세요: 신규입사자 
