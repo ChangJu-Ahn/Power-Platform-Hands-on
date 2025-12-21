@@ -17,3 +17,8 @@
 ---
 
 각 폴더에는 해당 주제별 실습 자료와 샘플, 구축 방법 등이 포함되어 있으니, 목적에 맞게 확인해보세요.
+
+---
+
+Power FX 참고 문서
+https://learn.microsoft.com/ko-kr/power-platform/power-fx/overview
