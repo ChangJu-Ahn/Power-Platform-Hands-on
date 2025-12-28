@@ -60,7 +60,7 @@
 ### 3-1. 브라우저에서 JSON 응답 얻기
 
 1. 다음 샘플 URL을 브라우저에 입력합니다. (이번에는 **apikey 필수!**)
-   `https://app.ticketmaster.com/discovery/v2/events.json?size=5&apikey={apikey}&keyword=Oasis`
+   `https://app.ticketmaster.com/discovery/v2/events.json?size=5&apikey=IFLd7Lvz7ZNTI2qnCnJz8yiYOABJ4sgg&keyword=Oasis`
 
    * `size=5`로 설정해 다양한 필드가 포함된 응답 확보
 2. 브라우저에 표시된 **JSON 응답 전체를 복사**합니다.
