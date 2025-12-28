@@ -1,19 +1,4 @@
-
-1. 상단에 토픽바로 이동 후 신규 토픽 생성
-   <img width="1157" height="310" alt="image" src="https://github.com/user-attachments/assets/6a5f3872-45f0-4e38-bc7c-ae293991ad21" />
-
-2. 상단에 '이 토픽이 언제 실행되어야 하는지'에 대한 설명 기술
-    ```
-    이 토픽은 예약 또는 예매를 위한 신청 토픽입니다. 사용자가 예매하고 싶다는 내용, 혹은 예약하고 싶다는 내용이 있다면 이 토픽을 실행합니다.
-    ```
-
-3. 바로 하단의 (+) 버튼을 눌러 적응형카드로 물어보기를 선택(= Ask with Adaptive Card)
-   <img width="478" height="647" alt="image" src="https://github.com/user-attachments/assets/8e207ac5-15d8-48bb-9146-ba5267a30434" />
-
-5. 편집을 위해 가운데 톱니바퀴 아이콘 클릭 후 적응형 카드 수정버튼을 클릭
-   <img width="749" height="705" alt="image" src="https://github.com/user-attachments/assets/7e4bec27-53ca-4dfa-98bc-23567f673eab" />
-
-7. 여기1. 상단에 토픽바로 이동 후 신규 토픽 생성
+7. 상단에 토픽바로 이동 후 신규 토픽 생성
    <img width="1157" height="310" alt="image" src="https://github.com/user-attachments/assets/6a5f3872-45f0-4e38-bc7c-ae293991ad21" />
 
 2. 상단에 '이 토픽이 언제 실행되어야 하는지'에 대한 설명 기술
