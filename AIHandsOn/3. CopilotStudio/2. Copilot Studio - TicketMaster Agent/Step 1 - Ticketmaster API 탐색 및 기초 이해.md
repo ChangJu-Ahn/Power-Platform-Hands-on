@@ -50,6 +50,7 @@ https://app.ticketmaster.com/discovery/v2/events.json?size=1&apikey=IFLd7Lvz7ZNT
 
 ```text
 https://app.ticketmaster.com/discovery/v2/events.json?size=1&keyword=Oasis&apikey={apikey}
+https://app.ticketmaster.com/discovery/v2/events.json?size=1&keyword=Oasis&apikey=IFLd7Lvz7ZNTI2qnCnJz8yiYOABJ4sgg
 ```
 
 * `"Oasis"` 관련 이벤트를 찾는 검색입니다.
@@ -58,6 +59,7 @@ https://app.ticketmaster.com/discovery/v2/events.json?size=1&keyword=Oasis&apike
 
 ```text
 https://app.ticketmaster.com/discovery/v2/events.json?size=1&city=Manchester&apikey={apikey}
+https://app.ticketmaster.com/discovery/v2/events.json?size=1&city=Manchester&apikey=IFLd7Lvz7ZNTI2qnCnJz8yiYOABJ4sgg
 ```
 
 * `"Manchester"`에서 열리는 이벤트를 찾는 검색입니다.
@@ -80,6 +82,7 @@ https://app.ticketmaster.com/discovery/v2/events.json?size=1&city=Manchester&api
 
 > 💡 **팁**: 여러 파라미터를 조합할 때는 `&`로만 이어 붙이면 됩니다.
 > 예: `...?size=50&keyword=Oasis&city=Manchester&apikey={apikey}`
+> 예: `...?size=50&keyword=Oasis&city=Manchester&apikey=IFLd7Lvz7ZNTI2qnCnJz8yiYOABJ4sgg`
 
 
 
