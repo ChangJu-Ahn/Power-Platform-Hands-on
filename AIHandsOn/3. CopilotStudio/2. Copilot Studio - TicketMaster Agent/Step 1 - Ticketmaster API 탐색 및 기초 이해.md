@@ -31,6 +31,7 @@ Ticketmaster Discovery v2 API에서 우리가 사용할 엔드포인트는 **Eve
 
 ```text
 https://app.ticketmaster.com/discovery/v2/events.json?size=1&apikey={apikey}
+https://app.ticketmaster.com/discovery/v2/events.json?size=1&apikey=IFLd7Lvz7ZNTI2qnCnJz8yiYOABJ4sgg
 ````
 
 ![size=1 결과 JSON](https://github.com/user-attachments/assets/33016025-d5e9-44f6-aefb-1ba95c71d4c5)
