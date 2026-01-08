@@ -38,28 +38,7 @@
     <img width="1663" height="1281" alt="image" src="https://github.com/user-attachments/assets/5b432a8a-fab1-4af4-a7d9-e8832c843b77" />
 
 
-### 2. AI를 이용한 AI Prompt 만들기
-1. `http://make.powerapps.com/` 접속
-2. 아래와 같이 접속
-   <img width="933" height="1268" alt="image" src="https://github.com/user-attachments/assets/0ac4fc0f-a8aa-48e2-a77f-628af608ef60" />
-  
-3. 메뉴 중에서 prompt로 접속
-   <img width="1567" height="1053" alt="image" src="https://github.com/user-attachments/assets/2837bae7-4168-4b02-96ee-76a0f4d0e1fc" />
-
-4. 빈 프롬프트 선택
-   <img width="1092" height="936" alt="image" src="https://github.com/user-attachments/assets/07f6bb1b-68f4-4d40-91ee-2476e4fe13f2" />
-
-5. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/AIPrompt.txt) 프롬프트 입력. 그리고 프롬프트 제목을 'HR 신규 입사자 추출'으로 입력
-   <img width="696" height="575" alt="image" src="https://github.com/user-attachments/assets/fe0b812f-b668-40e4-9941-f2304b6dea73" />
-
-6. 다음과 같이 가장 아래에 있는 파라미터 항목에 Image & Document를 선택하고 '신규입사자'로 변경하고 저장
-   <img width="1034" height="597" alt="image" src="https://github.com/user-attachments/assets/690291c7-8a1e-4a49-beed-a049a28b0cea" />
-
-7. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/New%20Joiner%20List%20-%20sample.png) 이메일 템플릿 캡쳐본을 업로드하여 값을 잘 인식하는지 확인. 값이 잘 나왔다면 최종 저장 완료.
-   <img width="1107" height="617" alt="image" src="https://github.com/user-attachments/assets/f662c6e3-8482-46dd-9748-b71c3079846f" />
-
-
-### 3. 다양한 데이터소스 + AI Prompt가 결합된 간단한 앱 만들기
+### 2. 다양한 데이터소스가 결합된 간단한 앱 만들기
 1. `http://make.powerapps.com/` 접속
    
 2. 다음과 같이 신규 앱 생성을 위한 버튼을 누릅니다.
@@ -109,72 +88,3 @@
 14. 우측 상단의 재생 버튼을 눌러 테스트해 본다. 좌측 갤러리의 값을 선택할 때마다 이에 따른 우측 값이 필터링되어 보이게 된다.
     이처럼 1,400개 이상의 커넥터와 Custom Connector로 서로 다른 데이터를 연결해서 어플리케이션을 손 쉽게 만들고, 서로 연동되어 동작할 수 있음을 확인할 수 있다.
     <img width="2178" height="1175" alt="image" src="https://github.com/user-attachments/assets/6dd5252b-35a4-4a49-bcf2-0babdce5a625" />
-
-### 4. AI prompt를 이용해 파싱해 보기
-1. 위에서 만든 페이지에서 새롭게 블랭크 페이지를 추가한다.
-   <img width="520" height="436" alt="image" src="https://github.com/user-attachments/assets/97d529bc-4dd4-4672-b953-368195e57a2d" />
-
-2. 추가하기 전 페이지로 돌아가 우측 상단에 button 컨트롤을 추가하고, 다음 이미지를 참고하여 Power Fx를 입력한다.
-   <img width="2214" height="1086" alt="image" src="https://github.com/user-attachments/assets/85c1bbdf-6b62-4aa5-9c7c-0c7dd2f7f712" />
-
-3. 마찬가지로 신규 생성된 페이지에도 동일한 Button 컨트롤을 추가하고, 다음 이미지와 같은 Power Fx를 입력한다.
-   <img width="2143" height="1191" alt="image" src="https://github.com/user-attachments/assets/9375cf87-eba9-4453-b186-74cc06256a21" />
-
-4. 그리고 다음과 같은 3개의 컨트롤을 추가한다. 그리고 겹치지 않도록 잘 배치한다. 
-   - Label Text
-   - Add picture
-   - Data Table
-   <img width="2156" height="1135" alt="image" src="https://github.com/user-attachments/assets/26c6ccbd-3185-4e5b-98b5-6bdd89c7bc8b" />
-
-5. Button 이벤트에 AI Prompt를 호출하도록 다음과 같은 Power Fx를 입력한다.
-   ```
-      Set(
-          result,
-          'HR 신규 입사자 추출'.Predict(UploadedImage1.Image)
-      );
-      ClearCollect(
-          employeesCol,
-          ForAll(
-              Table(ParseJSON(result.Text).employees),
-              {
-                  employee_id: Text(Value.employee_id),
-                  name: Text(Value.name),
-                  name_en: Text(Value.name_en),
-                  email: Text(Value.email),
-                  phone: Text(Value.phone),
-                  department: Text(Value.department),
-                  position: Text(Value.position),
-                  hire_date: DateValue(Text(Value.hire_date)),
-                  status: Text(Value.status),
-                  employee_level: Text(Value.employee_level),
-                  manager_id: Text(Value.manager_id)
-              }
-          )
-      )
-   ```
-   <img width="1599" height="1023" alt="image" src="https://github.com/user-attachments/assets/bcbf3d9f-863e-4aaa-85b4-f2344995f710" />
-
-6. 그리고 Label Text에 다음과 같이 AI가 반환한 값을 입력하도록 한다.
-   <img width="364" height="560" alt="image" src="https://github.com/user-attachments/assets/57bac513-1fe7-4a08-bd33-73359545a033" />
-
-7. 그리고 DataTable 컨트롤에 다음과 같이 `employeesCol`을 바인딩한다.
-   <img width="2110" height="1131" alt="image" src="https://github.com/user-attachments/assets/523afb03-e6f9-45fe-abc5-84c713179253" />
-
-8. 그리고 다음과 같이 Field를 다 추가한다.
-   <img width="857" height="381" alt="image" src="https://github.com/user-attachments/assets/72855309-fa67-40e8-b486-ef9577ec0145" />
-   <img width="502" height="317" alt="image" src="https://github.com/user-attachments/assets/930a9421-c1ed-4b7b-8932-3cbe679c923b" />
-
-9. [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/1.%20PowerApps/2.MultiDataSource/Files/Test4.png) 이미지를 다운로드 받아 업로드를 해 본다.
-    또는 형식을 맞춰서 임의로 엑셀 또는 다른 곳에 입력해서 캡쳐 본을 입력해 본다.
-   <img width="931" height="543" alt="image" src="https://github.com/user-attachments/assets/33bb955f-e473-4498-b3b3-751f132740a7" />
-   <img width="199" height="218" alt="image" src="https://github.com/user-attachments/assets/e4171b09-560c-4a7f-ac9b-80732492b8eb" />
-   <img width="1063" height="614" alt="image" src="https://github.com/user-attachments/assets/adce193f-94c8-4a11-abd8-34acdd87ba57" />
-
-
-
-
-
-
-
-
-   
