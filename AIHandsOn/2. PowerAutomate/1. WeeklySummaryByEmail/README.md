@@ -74,7 +74,6 @@
 13. 테스트 이메일을 보냈을 때 반영이 잘 되는지 확인.   
     <img width="2842" height="1273" alt="image" src="https://github.com/user-attachments/assets/c309f74b-be1a-4c8a-a02d-f57874a81a81" />
 
-14. 테스트를 위한 이메일 본문은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/2.%20PowerAutomate/1.%20WeeklySummaryByEmail/Files/sampleEmail.md)에서 확인할 수 있고, 오토메이트 필터링에 설정되어 있는 `주간보고` 라는 제목이 아닌 다른 이메일도 여러 개 보내보자. 다른 이메일이라면, 엑셀에 요약되지 않아야 정상이다.
-
+14. 테스트를 위한 이메일 본문은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/2.%20PowerAutomate/1.%20WeeklySummaryByEmail/Files/sampleEmail.md)에서 확인할 수 있습니다.
 
 
