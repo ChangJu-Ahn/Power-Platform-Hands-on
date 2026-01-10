@@ -42,7 +42,7 @@
   <img width="1191" height="1118" alt="image" src="https://github.com/user-attachments/assets/c2a0cad6-16b7-486b-ac11-9b44862b1b2f" />
 
 6. + 버튼을 눌러 `Parse JSON`을 선택하고 Content에는 위에서 동작해서 나온 결과 값 중 `Text`를 추가한다.    
-  <img width="1054" height="584" alt="image" src="https://github.com/user-attachments/assets/95b35315-8f44-493b-85cc-980913126492" />
+  <img width="506" height="294" alt="image" src="https://github.com/user-attachments/assets/c90fdfe9-27a1-4e65-a140-cea525bdc957" />
 
 7. 그리고 아래 빨간색 테두리 버튼의 `Sample payload`를 선택하고 다음 값을 붙여넣는다.
    <img width="656" height="565" alt="image" src="https://github.com/user-attachments/assets/dd586770-8833-4f11-82ba-a2425bd71e4c" />
