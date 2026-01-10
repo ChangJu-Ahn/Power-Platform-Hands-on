@@ -45,7 +45,7 @@
   <img width="506" height="294" alt="image" src="https://github.com/user-attachments/assets/c90fdfe9-27a1-4e65-a140-cea525bdc957" />
 
 7. 그리고 아래 빨간색 테두리 버튼의 `Sample payload`를 선택하고 다음 값을 붙여넣는다.
-   <img width="656" height="565" alt="image" src="https://github.com/user-attachments/assets/dd586770-8833-4f11-82ba-a2425bd71e4c" />
+<img width="361" height="104" alt="image" src="https://github.com/user-attachments/assets/43eddb9f-8c19-4c7f-8b74-e675d41592f0" />
    ```
       {
         "주차": "1주차",
