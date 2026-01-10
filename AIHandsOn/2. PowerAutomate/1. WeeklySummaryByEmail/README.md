@@ -35,12 +35,6 @@
 2. `자동화된 클라우드`를 선택 후 다음과 같이 설정한 뒤 `생성` 버튼을 누릅니다.
    <img width="935" height="601" alt="image" src="https://github.com/user-attachments/assets/1a64e355-a82b-4f84-a9d2-78f4707396b6" />
 
-3. 가장 상단의 트리거를 선택 후 `Setting`를 클릭. 이후 다음과 같이 필터구문을 추가합니다.
-   <img width="1185" height="1066" alt="image" src="https://github.com/user-attachments/assets/67df6f0d-80fb-45a8-889e-6bc9adea7b1c" />
-
-   ```
-     @contains(replace(triggerOutputs()?['body/Subject'], ' ', ''), '주간보고')
-   ```
 4. + 버튼을 눌러 `AI Builder`를 검색한다. 이후 `Run a prompt`를 클릭한다. 만약 다음과 같이 나온다면, 자신의 이름을 넣고 다시한번 로그인해서 커넥션을 만든다.
    <img width="311" height="296" alt="image" src="https://github.com/user-attachments/assets/ce7374fd-515a-4375-9ba2-fd450b88133e" />
 
