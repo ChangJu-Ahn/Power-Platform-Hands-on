@@ -78,3 +78,18 @@
 14. 테스트를 위한 이메일 본문은 [여기](https://github.com/ChangJu-Ahn/Power-Platform-Hands-on/blob/main/AIHandsOn/2.%20PowerAutomate/1.%20WeeklySummaryByEmail/Files/sampleEmail.md)에서 확인할 수 있습니다.
 
 
+
+
+---
+
+
+
+## 📈 KPI Framework
+| 구분 | KPI | 목표 | 측정 기준 |
+|------|------|------|-------------|
+| 효율성 | 처리시간 단축률 | 40% | Before/After 비교 |
+| 비용절감 | 운영비 절감액 | 15% | 연간 운영비 분석 |
+| 품질향상 | 오류율 감소 | 30% | QA 샘플 테스트 |
+| 사용자경험 | CSAT | +10p 상승 | 사용자 설문 |
+
+
