@@ -49,7 +49,7 @@
 * **Keyword(키워드)**: “아티스트(또는 팀) 이름이 제공되면 포함해야 합니다. 제공되지 않으면 비워 둡니다.”
 
 
-* **Start Date/Time(시작 날짜/시간)**: “이벤트가 발생할 시작 날짜입니다. 예를 들어 5월 1일을 지정하면 5월 1일 이후의 이벤트를 찾습니다. 제공되지 않으면 비워 둡니다. 날짜의 형식은 ISO 8601 형식 (예: YYYY-MM-DDTHH:MM:SSZ)입니다..”
+* **Start Date/Time(시작 날짜/시간)**: “이벤트가 발생할 시작 날짜입니다. 예를 들어 5월 1일을 지정하면 5월 1일 이후의 이벤트를 찾습니다. 제공되지 않으면 비워 둡니다. 날짜의 형식은 ISO 8601 형식 (예: YYYY-MM-DDTHH:MM:SSZ)입니다.”
   ![Start Date/Time 설명 예시](https://github.com/user-attachments/assets/ca5bcc99-aaf3-4d76-8cbe-229f3f2d51ad)
 
 
@@ -76,5 +76,9 @@
 
 ##  결과
 
-이제 에이전트 테스트에서 "7월에 Andrew Dice Clay 공연을 알려줘봐"라는 예시 프롬포트를 넣으면 아래와 같은 결과가 나옵니다!
-<img width="1175" height="1224" alt="image" src="https://github.com/user-attachments/assets/d34c3fd9-e667-491c-8c64-40c0a6b06055" />
+런던 혹은 뉴욕에서 열리는 공연, 더 나아가 날짜 및 키워드로 물어보면 답을 얻을 수 있습니다!   
+그리고 다음과 같이 실제 검색된 공연은 실시간 공연 예매 사이트에서도 동일하게 확인할 수 있습니다.
+
+<img width="1689" height="1230" alt="image" src="https://github.com/user-attachments/assets/6071e629-b607-4a12-a939-046f1ecc56e0" />
+<img width="1976" height="1221" alt="image" src="https://github.com/user-attachments/assets/8e471ffe-8e50-426a-b857-61646c748fbc" />
+
