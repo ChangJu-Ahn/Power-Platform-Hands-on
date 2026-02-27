@@ -4,7 +4,7 @@
 
 ### 4) 실시간 티켓 예매 사이트와 연동된 Ticket Event Agent 만들기
 ### 5) 티켓마스터 여행 가이드 에이전트(+ 일정 자동 반영을 위한 구글 캘린더 & 아웃룩 연동)
-### 6) opilot Studio Academy KR 06~10
+### 6) Copilot Studio Academy KR 06~10
 
 
 ---
